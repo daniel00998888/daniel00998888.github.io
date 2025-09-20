@@ -14,6 +14,7 @@
     header { background:#222; color:#fff; padding:20px; text-align:center; }
     h2 { margin:10px 0; }
     .news-container { max-width: 900px; margin: 20px auto; padding: 20px; background:#fff; border-radius:8px; }
+    .section-title { background:#ff5722; color:#fff; padding:10px; border-radius:5px; margin-top:20px; }
     .news-item { border-bottom: 1px solid #ddd; padding: 10px 0; }
     .news-item:last-child { border: none; }
     .news-item h3 { margin:0; }
@@ -26,66 +27,119 @@
   <p>Actualizadas cada 20 minutos</p>
 </header>
 
-<div class="news-container" id="news"></div>
+<div class="news-container">
+  <div class="section-title">📍 Noticias de Torreón</div>
+  <div id="news-torreon"></div>
+
+  <div class="section-title">🌎 Noticias Internacionales</div>
+  <div id="news-intl"></div>
+</div>
 
 <script>
-const SOURCES = [
-  // RSS de Torreón
-  "https://www.elsiglodetorreon.com.mx/rss/local.xml",
-  // RSS internacional (BBC Mundo)
-  "http://feeds.bbci.co.uk/mundo/rss.xml"
-];
+const SOURCES = {
+  torreon: "https://www.elsiglodetorreon.com.mx/rss/local.xml",
+  intl: "http://feeds.bbci.co.uk/mundo/rss.xml"
+};
 
 const MAX_HOURS = 24; // solo últimas 24 horas
 const REFRESH_INTERVAL = 20 * 60 * 1000; // 20 minutos
 
-async function fetchNews() {
-  const container = document.getElementById("news");
+async function fetchTorreonNews() {
+  const container = document.getElementById("news-torreon");
   container.innerHTML = "<p>Cargando noticias...</p>";
-  let allNews = [];
 
-  for (let url of SOURCES) {
-    try {
-      const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}`);
-      const data = await response.json();
-      if (data.items) {
-        allNews = allNews.concat(data.items);
+  try {
+    const url = `https://api.allorigins.win/get?url=${encodeURIComponent(SOURCES.torreon)}&nocache=${Date.now()}`;
+    const response = await fetch(url);
+    const data = await response.json();
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(data.contents, "text/xml");
+    const items = xml.querySelectorAll("item");
+
+    let news = [];
+    items.forEach(item => {
+      let title = item.querySelector("title")?.textContent || "";
+      let link = item.querySelector("link")?.textContent || "#";
+      let description = item.querySelector("description")?.textContent || "";
+      let pubDate = new Date(item.querySelector("pubDate")?.textContent || Date.now());
+
+      const now = new Date();
+      const diffHours = (now - pubDate) / (1000 * 60 * 60);
+      if (diffHours <= MAX_HOURS) {
+        news.push({title, link, description, pubDate});
       }
-    } catch (err) {
-      console.error("Error cargando RSS:", err);
+    });
+
+    news.sort((a,b) => b.pubDate - a.pubDate);
+
+    container.innerHTML = "";
+    if (news.length === 0) {
+      container.innerHTML = "<p>No hay noticias recientes de Torreón en las últimas 24 horas.</p>";
+    } else {
+      news.forEach(n => {
+        const div = document.createElement("div");
+        div.className = "news-item";
+        div.innerHTML = `
+          <h3><a href="${n.link}" target="_blank">${n.title}</a></h3>
+          <p>${n.description}</p>
+          <small>Publicado: ${n.pubDate.toLocaleString()}</small>
+        `;
+        container.appendChild(div);
+      });
     }
+  } catch (err) {
+    console.error("Error cargando noticias de Torreón:", err);
+    container.innerHTML = "<p>Error al cargar noticias de Torreón.</p>";
   }
+}
 
-  // Filtrar últimas 24h
-  const now = new Date();
-  allNews = allNews.filter(item => {
-    const pubDate = new Date(item.pubDate);
-    const diffHours = (now - pubDate) / (1000 * 60 * 60);
-    return diffHours <= MAX_HOURS;
-  });
+async function fetchIntlNews() {
+  const container = document.getElementById("news-intl");
+  container.innerHTML = "<p>Cargando noticias...</p>";
 
-  // Ordenar por fecha descendente
-  allNews.sort((a,b) => new Date(b.pubDate) - new Date(a.pubDate));
+  try {
+    const response = await fetch(
+      `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(SOURCES.intl)}&nocache=${Date.now()}`
+    );
+    const data = await response.json();
+    let items = data.items || [];
 
-  // Mostrar en página
-  container.innerHTML = "";
-  allNews.forEach(n => {
-    const div = document.createElement("div");
-    div.className = "news-item";
-    div.innerHTML = `
-      <h3><a href="${n.link}" target="_blank">${n.title}</a></h3>
-      <p>${n.description || ""}</p>
-      <small>Publicado: ${new Date(n.pubDate).toLocaleString()}</small>
-    `;
-    container.appendChild(div);
-  });
+    const now = new Date();
+    items = items.filter(item => {
+      const pubDate = new Date(item.pubDate);
+      const diffHours = (now - pubDate) / (1000 * 60 * 60);
+      return diffHours <= MAX_HOURS;
+    });
+
+    items.sort((a,b) => new Date(b.pubDate) - new Date(a.pubDate));
+
+    container.innerHTML = "";
+    items.forEach(n => {
+      const div = document.createElement("div");
+      div.className = "news-item";
+      div.innerHTML = `
+        <h3><a href="${n.link}" target="_blank">${n.title}</a></h3>
+        <p>${n.description || ""}</p>
+        <small>Publicado: ${new Date(n.pubDate).toLocaleString()}</small>
+      `;
+      container.appendChild(div);
+    });
+  } catch (err) {
+    console.error("Error cargando noticias internacionales:", err);
+    container.innerHTML = "<p>Error al cargar noticias internacionales.</p>";
+  }
+}
+
+function refreshAll() {
+  fetchTorreonNews();
+  fetchIntlNews();
 }
 
 // Primera carga
-fetchNews();
+refreshAll();
 
 // Recargar cada 20 minutos
-setInterval(fetchNews, REFRESH_INTERVAL);
+setInterval(refreshAll, REFRESH_INTERVAL);
 </script>
 </body>
 </html>
