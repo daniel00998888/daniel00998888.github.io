@@ -3,158 +3,120 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Noticias Impactantes - Portal Profesional</title>
-<meta name="description" content="Portal de noticias impactantes de la semana">
+<title>Noticias Actualizadas - Portal Profesional</title>
+<meta name="description" content="Noticias recientes actualizadas automáticamente cada hora">
 
-<!-- Auto ads de Google -->
+<!-- Google Ads -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2125166334282472"
      crossorigin="anonymous"></script>
 
 <style>
-body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f0f2f5; color:#333; scroll-behavior: smooth; }
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f0f2f5; color:#333; }
 a { text-decoration:none; color:inherit; }
-
 header { background: linear-gradient(to right,#ff416c,#ff4b2b); color:white; padding:20px; text-align:center; position: sticky; top:0; }
 header h1 { margin:0; }
 
 main { max-width:1200px; margin:20px auto; padding:0 20px; }
 
 /* Carrusel */
-.carousel {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  background: #ffe1d6;
-  height: 80px;
-}
+.carousel { position: relative; overflow: hidden; border-radius: 10px; margin-bottom: 20px; background: #ffe1d6; height: 80px; }
+.carousel-track { display: flex; transition: transform 0.5s ease-in-out; }
+.carousel-item { min-width: 100%; display: flex; justify-content: center; align-items: center; font-size: 1rem; font-weight: bold; cursor: pointer; padding: 10px; box-sizing: border-box; text-align: center; }
+.carousel-item:hover { background: #ffc4b0; }
 
-.carousel-track {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.carousel-item {
-  min-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1rem;
-  font-weight: bold;
-  cursor: pointer;
-  padding: 10px;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.carousel-item:hover {
-  background: #ffc4b0;
-}
-
-/* Noticias */
+/* Noticias detalladas */
 .news-detail { background:white; padding:20px; margin-bottom:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
 .news-detail h2 { margin-top:0; color:#ff4b2b; }
 .news-detail p { font-size:1rem; line-height:1.5; }
 
 /* Footer */
 footer { background:#ff4b2b; color:white; text-align:center; padding:20px; margin-top:40px; }
-
 </style>
 </head>
 <body>
 
 <header>
-  <h1>🌎 Noticias Impactantes</h1>
+  <h1>🌎 Noticias Recientes</h1>
 </header>
 
 <main>
-  <!-- Carrusel de titulares -->
+  <!-- Carrusel -->
   <div class="carousel">
-    <div class="carousel-track">
-      <!-- 30 noticias reales -->
-      <div class="carousel-item" data-target="news1">🌍 Temblor en EE.UU.: sismo de magnitud 3.3 en Alaska</div>
-      <div class="carousel-item" data-target="news2">🚢 Operación Víbora del Pacífico: incautan 75,000 libras de cocaína</div>
-      <div class="carousel-item" data-target="news3">🎉 Al-Mossassa 2025: fiesta anual de Badajoz con novedades</div>
-      <div class="carousel-item" data-target="news4">🎶 La Mercè de Barcelona: más de 500 actividades gratuitas</div>
-      <div class="carousel-item" data-target="news5">☀️ Otoño anómalo en España: temperaturas elevadas y sequía</div>
-      <div class="carousel-item" data-target="news6">🏢 Fira Barcelona organiza más de cien eventos estratégicos</div>
-      <div class="carousel-item" data-target="news7">🚴 Gran Fondo Sierra de Cazorla: 1,200 ciclistas participarán</div>
-      <div class="carousel-item" data-target="news8">🌒 Eclipse solar del 21 de septiembre visible en Oceanía y Antártida</div>
-      <div class="carousel-item" data-target="news9">💥 Ataques israelíes en Yemen: al menos 46 muertos</div>
-      <div class="carousel-item" data-target="news10">💻 Ciberataque en Europa afecta instituciones gubernamentales</div>
-      <div class="carousel-item" data-target="news11">✊ Crisis política en América Latina: protestas masivas</div>
-      <div class="carousel-item" data-target="news12">🤖 Avances en IA: algoritmo mejora diagnósticos médicos</div>
-      <div class="carousel-item" data-target="news13">🌡️ Cambio climático: impacto del deshielo sobre el nivel del mar</div>
-      <div class="carousel-item" data-target="news14">⚡ Innovación tecnológica: dispositivo portátil genera energía</div>
-      <div class="carousel-item" data-target="news15">🛂 Crisis migratoria: miles buscan refugio por conflictos bélicos</div>
-      <div class="carousel-item" data-target="news16">⚽ Deportes: equipo nacional gana torneo internacional</div>
-      <div class="carousel-item" data-target="news17">📈 Economía global: recuperación tras semanas de volatilidad</div>
-      <div class="carousel-item" data-target="news18">📚 Educación: nuevo sistema basado en competencias digitales</div>
-      <div class="carousel-item" data-target="news19">💉 Salud pública: distribución de nueva vacuna respiratoria</div>
-      <div class="carousel-item" data-target="news20">🎨 Cultura: exposición de arte contemporáneo en Museo Nacional</div>
-      <div class="carousel-item" data-target="news21">🪐 Tecnología espacial: misión a Marte revela composición del suelo</div>
-      <div class="carousel-item" data-target="news22">🤝 Conflictos internacionales: reanudan negociaciones de paz</div>
-      <div class="carousel-item" data-target="news23">🌪️ Desastres naturales: huracán categoría 4 en costa este de EE.UU.</div>
-      <div class="carousel-item" data-target="news24">⚖️ Derechos humanos: denuncian violaciones en diversas regiones</div>
-      <div class="carousel-item" data-target="news25">🖥️ Ciencia y tecnología: avance en computación cuántica</div>
-      <div class="carousel-item" data-target="news26">🌍 Política internacional: líderes mundiales discuten cambio climático</div>
-      <div class="carousel-item" data-target="news27">🎢 Turismo: nuevo parque temático en Europa atrae visitantes</div>
-      <div class="carousel-item" data-target="news28">🌱 Agricultura sostenible: reducción de pesticidas y mejor rendimiento</div>
-      <div class="carousel-item" data-target="news29">🥗 Seguridad alimentaria: políticas garantizan acceso a alimentos saludables</div>
-      <div class="carousel-item" data-target="news30">⚖️ Justicia social: leyes promueven igualdad de género e inclusión</div>
-    </div>
+    <div class="carousel-track" id="carousel-track"></div>
   </div>
 
   <!-- Noticias detalladas -->
-  <div id="news1" class="news-detail"><h2>🌍 Temblor en EE.UU.</h2><p>Un sismo de magnitud 3.3 se registró en Alaska, según el USGS. <a href="https://elcomercio.pe/mag/respuestas/ciencias/temblor-en-eeuu-hoy-sabado-20-de-septiembre-2025-hora-exacta-magnitud-y-donde-fue-el-epicentro-del-ultimo-sismo-usa-california-nueva-york-nnda-nnrt-noticia/">Leer más</a></p></div>
-<div id="news2" class="news-detail"><h2>🚢 Operación Víbora del Pacífico</h2><p>La Guardia Costera de EE.UU. incauta más de 75,000 libras de cocaína. <a href="https://es-us.noticias.yahoo.com/noticias-20-septiembre-2025-ma%C3%B1ana-050009516.html">Leer más</a></p></div>
-<div id="news3" class="news-detail"><h2>🎉 Al-Mossassa 2025</h2><p>Badajoz celebra su fiesta anual con actividades culturales y un cambio en la ubicación del mercado árabe. <a href="https://cadenaser.com/extremadura/2025/09/19/al-mossassa-2025-llega-con-novedades-y-cambio-de-ubicacion-radio-extremadura/">Leer más</a></p></div>
-<div id="news4" class="news-detail"><h2>🎶 La Mercè de Barcelona</h2><p>La fiesta mayor de la ciudad ofrece más de 500 actividades gratuitas, incluyendo conciertos y exposiciones. <a href="https://los40.com/2025/09/19/la-merce-de-barcelona-2025-horario-de-todos-los-conciertos-gratuitos-y-donde-son/">Leer más</a></p></div>
-<div id="news5" class="news-detail"><h2>☀️ Otoño anómalo en España</h2><p>La AEMET alerta sobre temperaturas elevadas y sequía en algunas regiones para el otoño de 2025. <a href="https://www.huffingtonpost.es/tiempo/aemet-alerta-otono-anomalo-temperaturas-continuacion-sudoroso-verano-historico.html">Leer más</a></p></div>
-<div id="news6" class="news-detail"><h2>🏢 Fira Barcelona</h2><p>La institución organiza más de cien eventos entre septiembre y diciembre. <a href="https://elpais.com/economia/negocios/2025-09-14/otono-intenso-en-fira-barcelona.html">Leer más</a></p></div>
-<div id="news7" class="news-detail"><h2>🚴 Gran Fondo Sierra de Cazorla</h2><p>1,200 ciclistas participarán en una prueba de 144 km en el Parque Natural de Cazorla. <a href="https://as.com/ciclismo/mas_ciclismo/1200-ciclistas-recorreran-el-pulmon-verde-del-parque-natural-en-la-v-gran-fondo-sierra-de-cazorla-segura-y-las-villas-n/?utm_source=chatgpt.com">Leer más</a></p></div>
-<div id="news8" class="news-detail"><h2>🌒 Eclipse solar del 21 de septiembre</h2><p>Un eclipse solar parcial será visible en gran parte de Oceanía y la Antártida. <a href="https://es.wikipedia.org/wiki/Eclipse_solar_del_21_de_septiembre_de_2025">Leer más</a></p></div>
-<div id="news9" class="news-detail"><h2>💥 Ataques israelíes en Yemen</h2><p>Bombardeos en Saná y Yauf dejan al menos 46 muertos y más de 165 heridos. <a href="https://es.wikipedia.org/wiki/Ataques_israel%C3%ADes_contra_Yemen_de_septiembre_de_2025">Leer más</a></p></div>
-<div id="news10" class="news-detail"><h2>💻 Ciberataque en Europa</h2><p>Una serie de ataques informáticos afecta a instituciones gubernamentales en varios países. <a href="https://elpais.com/hemeroteca/2025-09-15/">Leer más</a></p></div>
+  <div id="news-container"></div>
 
-<!-- Agregar las demás noticias de news11 a news30 siguiendo el mismo patrón -->
-
-<!-- Google Ads Auto -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2125166334282472"
-     data-ad-slot="3333333333"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+  <!-- Google Ads -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-2125166334282472"
+       data-ad-slot="3333333333"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 </main>
 
 <footer>
-  <p>© 2025 Noticias Impactantes. Todos los derechos reservados.</p>
+  <p>© 2025 Noticias Actualizadas. Todos los derechos reservados.</p>
 </footer>
 
 <script>
-// Carrusel automático
-const track = document.querySelector('.carousel-track');
-const items = Array.from(track.children);
-let index = 0;
+// URL de RSS público (BBC Mundo)
+const RSS_URL = "https://feeds.bbci.co.uk/mundo/rss.xml";
 
-function moveCarousel() {
-    index = (index + 1) % items.length;
-    track.style.transform = `translateX(-${index * 100}%)`;
+// Función para parsear XML a JSON
+async function fetchNews() {
+    const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(RSS_URL)}`);
+    const data = await response.json();
+    return data.items.slice(0, 30); // Tomar solo 30 noticias
 }
-setInterval(moveCarousel, 4000);
 
-// Hacer click en carrusel lleva a noticia detallada
-items.forEach(item => {
-    item.addEventListener('click', () => {
-        const target = document.getElementById(item.dataset.target);
-        target.scrollIntoView({behavior: 'smooth'});
+// Crear carrusel y noticias
+async function initNews() {
+    const newsItems = await fetchNews();
+    const carouselTrack = document.getElementById("carousel-track");
+    const newsContainer = document.getElementById("news-container");
+
+    newsItems.forEach((item, index) => {
+        // Carrusel
+        const cItem = document.createElement("div");
+        cItem.className = "carousel-item";
+        cItem.textContent = item.title;
+        cItem.dataset.target = `news${index}`;
+        carouselTrack.appendChild(cItem);
+
+        // Noticias detalladas
+        const nItem = document.createElement("div");
+        nItem.className = "news-detail";
+        nItem.id = `news${index}`;
+        nItem.innerHTML = `<h2>${item.title}</h2><p>${item.description}<br><a href="${item.link}" target="_blank">Leer más</a></p>`;
+        newsContainer.appendChild(nItem);
     });
-});
+
+    // Carrusel automático
+    const items = Array.from(carouselTrack.children);
+    let idx = 0;
+    setInterval(() => {
+        idx = (idx + 1) % items.length;
+        carouselTrack.style.transform = `translateX(-${idx * 100}%)`;
+    }, 4000);
+
+    // Click en carrusel lleva a noticia detallada
+    items.forEach(item => {
+        item.addEventListener('click', () => {
+            const target = document.getElementById(item.dataset.target);
+            target.scrollIntoView({behavior: 'smooth'});
+        });
+    });
+}
+
+// Inicializar noticias
+initNews();
 </script>
 
 </body>
