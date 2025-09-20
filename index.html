@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Noticias Impactantes</title>
+<title>Noticias Impactantes - Portal Profesional</title>
 <meta name="description" content="Portal de noticias impactantes de la semana">
 
 <!-- Auto ads de Google -->
@@ -12,13 +12,20 @@
 
 <style>
 body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f0f2f5; color:#333; scroll-behavior: smooth; }
+a { text-decoration:none; color:inherit; }
+
 header { background: linear-gradient(to right,#ff416c,#ff4b2b); color:white; padding:20px; text-align:center; position: sticky; top:0; }
 header h1 { margin:0; }
 main { max-width:1200px; margin:20px auto; padding:0 20px; }
 .carousel { display:flex; overflow:hidden; border-radius:10px; margin-bottom:20px; background:#ffe1d6; }
 .carousel-track { display:flex; transition: transform 0.5s ease-in-out; }
-.carousel-item { min-width:100%; padding:40px; text-align:center; font-weight:bold; cursor:pointer; }
+.carousel-item { min-width:100%; padding:20px; text-align:center; font-weight:bold; cursor:pointer; font-size:1rem; }
+.carousel-item:hover { background:#ffc4b0; }
+
 .news-detail { background:white; padding:20px; margin-bottom:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+.news-detail h2 { margin-top:0; color:#ff4b2b; }
+.news-detail p { font-size:1rem; line-height:1.5; }
+
 footer { background:#ff4b2b; color:white; text-align:center; padding:20px; margin-top:40px; }
 </style>
 </head>
@@ -36,26 +43,159 @@ footer { background:#ff4b2b; color:white; text-align:center; padding:20px; margi
       <div class="carousel-item" data-target="news2">🚀 Avances en exploración espacial</div>
       <div class="carousel-item" data-target="news3">💻 Ciberataque masivo afecta a millones</div>
       <div class="carousel-item" data-target="news4">⚽ Torneo internacional: sorpresa histórica</div>
+      <div class="carousel-item" data-target="news5">🏛️ Política internacional: acuerdo histórico</div>
+      <div class="carousel-item" data-target="news6">📈 Economía global: mercados en alza</div>
+      <div class="carousel-item" data-target="news7">🎮 Videojuegos: lanzamiento esperado causa furor</div>
+      <div class="carousel-item" data-target="news8">🏥 Salud: nuevo avance en tratamiento de enfermedades</div>
+      <div class="carousel-item" data-target="news9">🌐 Tecnología: IA revoluciona la industria</div>
+      <div class="carousel-item" data-target="news10">🎬 Cine: estreno de película récord de taquilla</div>
+      <div class="carousel-item" data-target="news11">🌾 Medio ambiente: proyecto de reforestación masiva</div>
+      <div class="carousel-item" data-target="news12">🚗 Automotriz: vehículo eléctrico rompe récords</div>
+      <div class="carousel-item" data-target="news13">🛫 Turismo: destinos más populares de la semana</div>
+      <div class="carousel-item" data-target="news14">🎵 Música: álbum sorprendente rompe récords</div>
+      <div class="carousel-item" data-target="news15">⚡ Energía: innovación en energías renovables</div>
+      <div class="carousel-item" data-target="news16">🏟️ Deportes: atleta bate récord mundial</div>
+      <div class="carousel-item" data-target="news17">💡 Innovación: startup revoluciona sector financiero</div>
+      <div class="carousel-item" data-target="news18">📰 Sociedad: cambios significativos en legislación</div>
+      <div class="carousel-item" data-target="news19">🌊 Desastres naturales: alerta global por huracán</div>
+      <div class="carousel-item" data-target="news20">📚 Educación: nuevo programa educativo internacional</div>
+      <div class="carousel-item" data-target="news21">🌌 Astronomía: descubrimiento de exoplaneta prometedor</div>
+      <div class="carousel-item" data-target="news22">🏙️ Urbanismo: ciudad lanza proyecto sostenible</div>
+      <div class="carousel-item" data-target="news23">💼 Negocios: fusión histórica entre compañías</div>
+      <div class="carousel-item" data-target="news24">🍽️ Gastronomía: chef crea plato innovador</div>
+      <div class="carousel-item" data-target="news25">🎭 Cultura: festival internacional celebra arte</div>
+      <div class="carousel-item" data-target="news26">📱 Apps: aplicación viral cambia hábitos de usuarios</div>
+      <div class="carousel-item" data-target="news27">🛒 Comercio: tendencias de compras en línea</div>
+      <div class="carousel-item" data-target="news28">🎨 Arte: obra icónica expuesta mundialmente</div>
+      <div class="carousel-item" data-target="news29">🚑 Emergencias: simulacro internacional exitoso</div>
+      <div class="carousel-item" data-target="news30">🌿 Ecología: comunidad lanza campaña de reciclaje</div>
     </div>
   </div>
 
   <!-- Noticias detalladas -->
   <div id="news1" class="news-detail">
-    <h2>🌍 Crisis Climática</h2>
-    <p>Las temperaturas mundiales registran niveles históricos. Los expertos alertan sobre medidas urgentes.</p>
+    <h2>🌍 Crisis Climática alcanza nuevo récord global</h2>
+    <p>Las temperaturas mundiales registran niveles históricos. Expertos alertan sobre medidas urgentes para reducir emisiones y proteger ecosistemas.</p>
   </div>
   <div id="news2" class="news-detail">
-    <h2>🚀 Exploración Espacial</h2>
-    <p>La NASA y la ESA anuncian nuevas misiones conjuntas para estudiar Marte y exoplanetas cercanos.</p>
+    <h2>🚀 Avances en exploración espacial</h2>
+    <p>NASA y ESA anuncian nuevas misiones conjuntas para estudiar Marte y exoplanetas cercanos, incluyendo sondas avanzadas y telescopios revolucionarios.</p>
   </div>
   <div id="news3" class="news-detail">
-    <h2>💻 Ciberataque Global</h2>
-    <p>Varias plataformas reportan interrupciones debido a un ataque informático masivo.</p>
+    <h2>💻 Ciberataque masivo afecta a millones</h2>
+    <p>Plataformas internacionales reportan interrupciones por un ataque global. Se recomienda actualizar contraseñas y reforzar la seguridad digital.</p>
   </div>
   <div id="news4" class="news-detail">
-    <h2>⚽ Torneo Internacional</h2>
-    <p>Un equipo subestimado vence al campeón y sorprende al mundo deportivo.</p>
+    <h2>⚽ Torneo internacional: sorpresa histórica</h2>
+    <p>Un equipo subestimado vence al campeón y avanza a la final, sorprendiendo a aficionados y medios deportivos.</p>
   </div>
+  <div id="news5" class="news-detail">
+    <h2>🏛️ Política internacional: acuerdo histórico</h2>
+    <p>Se firma un acuerdo internacional que promete fortalecer la cooperación entre países en temas clave como comercio y seguridad.</p>
+  </div>
+  <div id="news6" class="news-detail">
+    <h2>📈 Economía global: mercados en alza</h2>
+    <p>Los índices bursátiles muestran crecimiento significativo gracias a la recuperación económica y nuevas políticas de estímulo.</p>
+  </div>
+  <div id="news7" class="news-detail">
+    <h2>🎮 Videojuegos: lanzamiento esperado causa furor</h2>
+    <p>El juego más esperado del año rompe récords de ventas y genera miles de reseñas positivas en todo el mundo.</p>
+  </div>
+  <div id="news8" class="news-detail">
+    <h2>🏥 Salud: nuevo avance en tratamiento de enfermedades</h2>
+    <p>Investigadores desarrollan un tratamiento innovador que promete mejorar la calidad de vida de pacientes con enfermedades crónicas.</p>
+  </div>
+  <div id="news9" class="news-detail">
+    <h2>🌐 Tecnología: IA revoluciona la industria</h2>
+    <p>La inteligencia artificial comienza a integrarse en procesos industriales, aumentando eficiencia y reduciendo costos significativamente.</p>
+  </div>
+  <div id="news10" class="news-detail">
+    <h2>🎬 Cine: estreno de película récord de taquilla</h2>
+    <p>La nueva película supera todas las expectativas y se convierte en un fenómeno cultural en pocos días.</p>
+  </div>
+
+  <!-- Noticias 11 a 30 -->
+  <div id="news11" class="news-detail">
+    <h2>🌾 Medio ambiente: proyecto de reforestación masiva</h2>
+    <p>Comunidades locales y ONG implementan un plan de reforestación que promete recuperar miles de hectáreas de bosque.</p>
+  </div>
+  <div id="news12" class="news-detail">
+    <h2>🚗 Automotriz: vehículo eléctrico rompe récords</h2>
+    <p>El nuevo vehículo eléctrico lidera ventas y establece un precedente en movilidad sostenible.</p>
+  </div>
+  <div id="news13" class="news-detail">
+    <h2>🛫 Turismo: destinos más populares de la semana</h2>
+    <p>Expertos destacan las ciudades y países que han visto un incremento significativo en visitantes durante la semana.</p>
+  </div>
+  <div id="news14" class="news-detail">
+    <h2>🎵 Música: álbum sorprendente rompe récords</h2>
+    <p>El nuevo álbum de un artista internacional se posiciona en los primeros lugares de ventas y streaming mundial.</p>
+  </div>
+  <div id="news15" class="news-detail">
+    <h2>⚡ Energía: innovación en energías renovables</h2>
+    <p>Se implementa una nueva tecnología que aumenta la eficiencia de generación de energía solar y eólica.</p>
+  </div>
+  <div id="news16" class="news-detail">
+    <h2>🏟️ Deportes: atleta bate récord mundial</h2>
+    <p>El atleta logra una hazaña histórica en competencias internacionales, marcando un récord que perdurará.</p>
+  </div>
+  <div id="news17" class="news-detail">
+    <h2>💡 Innovación: startup revoluciona sector financiero</h2>
+    <p>Una startup tecnológica introduce soluciones que transforman la forma en que se realizan transacciones financieras.</p>
+  </div>
+  <div id="news18" class="news-detail">
+    <h2>📰 Sociedad: cambios significativos en legislación</h2>
+    <p>Se aprueban nuevas leyes que afectan a la ciudadanía en áreas clave como educación, salud y seguridad.</p>
+  </div>
+  <div id="news19" class="news-detail">
+    <h2>🌊 Desastres naturales: alerta global por huracán</h2>
+    <p>Autoridades emiten alertas internacionales ante la llegada de un huracán que afecta varias regiones costeras.</p>
+  </div>
+  <div id="news20" class="news-detail">
+    <h2>📚 Educación: nuevo programa educativo internacional</h2>
+    <p>Se lanza un programa global que promueve la cooperación entre estudiantes y universidades de distintos países.</p>
+  </div>
+  <div id="news21" class="news-detail">
+    <h2>🌌 Astronomía: descubrimiento de exoplaneta prometedor</h2>
+    <p>Científicos descubren un exoplaneta que podría tener condiciones habitables similares a la Tierra.</p>
+  </div>
+  <div id="news22" class="news-detail">
+    <h2>🏙️ Urbanismo: ciudad lanza proyecto sostenible</h2>
+    <p>Se implementan nuevas políticas urbanísticas enfocadas en sostenibilidad, movilidad y espacios verdes.</p>
+  </div>
+  <div id="news23" class="news-detail">
+    <h2>💼 Negocios: fusión histórica entre compañías</h2>
+    <p>Dos gigantes de la industria anuncian una fusión que redefine el mercado global.</p>
+  </div>
+  <div id="news24" class="news-detail">
+    <h2>🍽️ Gastronomía: chef crea plato innovador</h2>
+    <p>Un chef reconocido internacionalmente lanza un plato que mezcla tradición y modernidad culinaria.</p>
+  </div>
+  <div id="news25" class="news-detail">
+    <h2>🎭 Cultura: festival internacional celebra arte</h2>
+    <p>Se realiza un festival donde artistas de todo el mundo presentan exposiciones y espectáculos en vivo.</p>
+  </div>
+  <div id="news26" class="news-detail">
+    <h2>📱 Apps: aplicación viral cambia hábitos de usuarios</h2>
+    <p>Una nueva app se vuelve viral y modifica la forma en que millones interactúan y consumen contenido digital.</p>
+  </div>
+  <div id="news27" class="news-detail">
+    <h2>🛒 Comercio: tendencias de compras en línea</h2>
+    <p>Se reporta un aumento significativo en ventas de e-commerce y productos digitales durante la semana.</p>
+  </div>
+  <div id="news28" class="news-detail">
+    <h2>🎨 Arte: obra icónica expuesta mundialmente</h2>
+    <p>Una obra de arte reconocida internacionalmente se exhibe en museos y galerías de distintos países.</p>
+  </div>
+  <div id="news29" class="news-detail">
+    <h2>🚑 Emergencias: simulacro internacional exitoso</h2>
+    <p>Se lleva a cabo un simulacro coordinado entre varios países para mejorar la respuesta ante desastres.</p>
+  </div>
+  <div id="news30" class="news-detail">
+    <h2>🌿 Ecología: comunidad lanza campaña de reciclaje</h2>
+    <p>Vecinos y organizaciones implementan un proyecto de reciclaje que busca reducir el impacto ambiental local.</p>
+  </div>
+
 </main>
 
 <footer>
