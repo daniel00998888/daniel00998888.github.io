@@ -6,19 +6,21 @@
   <title>Noticias Impactantes - Semana Actual</title>
   <meta name="description" content="Las noticias más impactantes e importantes de la semana reciente en el mundo.">
 
-  <!-- Código de Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2125166334282472" crossorigin="anonymous"></script>
+  <!-- Código base de Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2125166334282472"
+     crossorigin="anonymous"></script>
 
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; scroll-behavior: smooth; }
     header { background: #1a1a1a; color: white; padding: 20px; text-align: center; }
-    nav { background: #333; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    nav { background: #333; padding: 10px; text-align: center; position: sticky; top: 0; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
     nav a:hover { text-decoration: underline; }
     main { max-width: 900px; margin: auto; padding: 20px; }
+    section { margin-bottom: 40px; }
     article { background: white; padding: 20px; margin-bottom: 20px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
     article h2 { margin-top: 0; color: #222; }
-    footer { background: #1a1a1a; color: white; text-align: center; padding: 15px; margin-top: 30px; }
+    footer { background: #1a1a1a; color: white; text-align: center; padding: 15px; }
     .ads { margin: 20px 0; text-align: center; }
   </style>
 </head>
@@ -29,14 +31,14 @@
   </header>
 
   <nav>
-    <a href="index.html">Inicio</a>
-    <a href="acerca.html">Acerca de</a>
-    <a href="privacidad.html">Política de Privacidad</a>
-    <a href="terminos.html">Términos y Condiciones</a>
+    <a href="#inicio">Inicio</a>
+    <a href="#acerca">Acerca de</a>
+    <a href="#privacidad">Privacidad</a>
+    <a href="#terminos">Términos</a>
   </nav>
 
-  <main>
-    <!-- Bloque de anuncio -->
+  <main id="inicio">
+    <!-- Bloque de anuncio de Google -->
     <div class="ads">
       <ins class="adsbygoogle"
         style="display:block"
@@ -50,45 +52,65 @@
     </div>
 
     <!-- Noticias -->
-    <article>
-      <h2>🌍 Crisis Climática: récord de temperaturas en varios países</h2>
-      <p>La ola de calor más intensa de los últimos años afecta a múltiples continentes, generando preocupación en organismos internacionales.</p>
-    </article>
+    <section>
+      <article>
+        <h2>🌍 Crisis Climática: récord de temperaturas en varios países</h2>
+        <p>La ola de calor más intensa de los últimos años afecta a múltiples continentes, generando preocupación en organismos internacionales.</p>
+      </article>
 
-    <article>
-      <h2>🚀 Avances en la exploración espacial</h2>
-      <p>Una nueva misión internacional logró colocar un satélite en órbita para estudiar exoplanetas cercanos.</p>
-    </article>
+      <article>
+        <h2>🚀 Avances en la exploración espacial</h2>
+        <p>Una nueva misión internacional logró colocar un satélite en órbita para estudiar exoplanetas cercanos.</p>
+      </article>
 
-    <article>
-      <h2>💻 Ciberataque masivo afecta a grandes empresas</h2>
-      <p>Varias compañías reportaron interrupciones en sus sistemas tras un ataque informático global.</p>
-    </article>
+      <article>
+        <h2>💻 Ciberataque masivo afecta a grandes empresas</h2>
+        <p>Varias compañías reportaron interrupciones en sus sistemas tras un ataque informático global.</p>
+      </article>
 
-    <article>
-      <h2>⚽ Deporte: sorpresa en torneo internacional</h2>
-      <p>Un equipo inesperado logró clasificar a la final, causando sensación en el mundo del deporte.</p>
-    </article>
+      <article>
+        <h2>⚽ Deporte: sorpresa en torneo internacional</h2>
+        <p>Un equipo inesperado logró clasificar a la final, causando sensación en el mundo del deporte.</p>
+      </article>
 
-    <article>
-      <h2>📉 Economía: cambios en los mercados financieros</h2>
-      <p>El mercado global experimenta volatilidad tras anuncios de nuevas políticas económicas.</p>
-    </article>
+      <article>
+        <h2>📉 Economía: cambios en los mercados financieros</h2>
+        <p>El mercado global experimenta volatilidad tras anuncios de nuevas políticas económicas.</p>
+      </article>
 
-    <article>
-      <h2>🧪 Ciencia: avances en medicina genética</h2>
-      <p>Investigadores reportan un importante descubrimiento que podría revolucionar tratamientos médicos.</p>
-    </article>
+      <article>
+        <h2>🧪 Ciencia: avances en medicina genética</h2>
+        <p>Investigadores reportan un importante descubrimiento que podría revolucionar tratamientos médicos.</p>
+      </article>
 
-    <article>
-      <h2>🎬 Entretenimiento: estreno rompe récords</h2>
-      <p>La nueva película de ciencia ficción alcanzó cifras históricas en taquilla durante su primer fin de semana.</p>
-    </article>
+      <article>
+        <h2>🎬 Entretenimiento: estreno rompe récords</h2>
+        <p>La nueva película de ciencia ficción alcanzó cifras históricas en taquilla durante su primer fin de semana.</p>
+      </article>
 
-    <article>
-      <h2>✈️ Turismo: aumento en viajes internacionales</h2>
-      <p>Las aerolíneas reportan una fuerte recuperación del turismo mundial tras años de caída.</p>
-    </article>
+      <article>
+        <h2>✈️ Turismo: aumento en viajes internacionales</h2>
+        <p>Las aerolíneas reportan una fuerte recuperación del turismo mundial tras años de caída.</p>
+      </article>
+    </section>
+
+    <!-- Sección Acerca de -->
+    <section id="acerca">
+      <h2>Acerca de</h2>
+      <p>Este sitio recopila y presenta las noticias más impactantes de la semana a nivel mundial. Nuestro objetivo es informar de manera clara y accesible.</p>
+    </section>
+
+    <!-- Sección Privacidad -->
+    <section id="privacidad">
+      <h2>Política de Privacidad</h2>
+      <p>Tu privacidad es importante. Este sitio puede utilizar cookies y tecnologías de terceros (como Google AdSense) para mostrar anuncios personalizados.</p>
+    </section>
+
+    <!-- Sección Términos -->
+    <section id="terminos">
+      <h2>Términos y Condiciones</h2>
+      <p>El uso de este sitio implica la aceptación de nuestras condiciones. No nos hacemos responsables por el mal uso de la información publicada.</p>
+    </section>
   </main>
 
   <footer>
