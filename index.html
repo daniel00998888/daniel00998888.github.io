@@ -1,60 +1,178 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Tienda en GitHub</title>
-  
-  <!-- Código de Google AdSense -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WorldPulse — Noticias Internacionales (Semanal)</title>
+
+  <!-- Meta de verificación (si AdSense te pide una meta específica, pégala aquí) -->
+  <!-- <meta name="google-site-verification" content="TU_CODIGO_DE_VERIFICACION"> -->
+
+  <!-- Google AdSense: CLIENT (mantén tu ca-pub) -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2125166334282472"
-     crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
 
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    h1 { color: #333; }
-    .producto { border: 1px solid #ddd; padding: 10px; margin: 10px 0; }
-    form { max-width: 400px; margin-top: 30px; }
-    input, textarea, button {
-      width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 4px;
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#9aa6b2; --accent:#1f7aec;
+      --maxw:1100px;
     }
-    button { background: #28a745; color: white; cursor: pointer; }
-    button:hover { background: #218838; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;background:linear-gradient(180deg,#071028 0%,var(--bg) 100%);color:#e6eef6}
+    header{background:linear-gradient(90deg, rgba(31,122,236,0.12), rgba(31,122,236,0.04));padding:28px 16px;backdrop-filter:blur(4px);border-bottom:1px solid rgba(255,255,255,0.03)}
+    .wrap{max-width:var(--maxw);margin:0 auto}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{width:48px;height:48px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7bd6ff);display:flex;align-items:center;justify-content:center;font-weight:700;color:#012;box-shadow:0 6px 20px rgba(31,122,236,0.12)}
+    h1{margin:0;font-size:20px}
+    p.lead{color:var(--muted);margin:6px 0 0;font-size:14px}
+
+    main{padding:28px 16px}
+    .grid{display:grid;grid-template-columns:1fr 360px;gap:22px;max-width:var(--maxw);margin:0 auto}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;padding:18px;border:1px solid rgba(255,255,255,0.03)}
+    article h2{margin:0 0 8px;font-size:18px}
+    .meta{color:var(--muted);font-size:13px;margin-bottom:12px}
+    .excerpt{color:#d7e6f6;line-height:1.5}
+
+    .sidebar .small{font-size:14px;color:var(--muted);margin-bottom:8px}
+    .adbox{margin:14px 0;display:flex;justify-content:center}
+
+    footer{max-width:var(--maxw);margin:24px auto;color:var(--muted);font-size:13px;padding:14px;text-align:center}
+
+    /* responsive */
+    @media (max-width:900px){
+      .grid{grid-template-columns:1fr; padding-bottom: 40px}
+      .sidebar{order:2}
+    }
+    a.readmore{display:inline-block;margin-top:12px;color:var(--accent);text-decoration:none;font-weight:600}
+    .source{font-size:13px;color:var(--muted);margin-top:10px}
   </style>
 </head>
 <body>
+  <header>
+    <div class="wrap brand">
+      <div class="logo">WP</div>
+      <div>
+        <h1>WorldPulse</h1>
+        <p class="lead">Resumen semanal: Las noticias internacionales más impactantes (actualizado)</p>
+      </div>
+    </div>
+  </header>
 
-  <h1>Bienvenido a mi Tienda</h1>
-  <p>Aquí puedes ver productos y enviarme un mensaje con tu pedido.</p>
+  <main>
+    <div class="grid">
+      <!-- Column: Noticias principales -->
+      <div>
+        <!-- Noticia 1 -->
+        <div class="card" id="news-ukraine">
+          <h2>Gran ataque aéreo ruso sobre Ucrania: cientos de drones y misiles</h2>
+          <div class="meta">20 de septiembre de 2025 · Conflicto en Europa del Este</div>
+          <div class="excerpt">
+            Informes de la jornada describen una ofensiva masiva que incluyó decenas de misiles y cientos de drones, con daños en múltiples regiones ucranianas y víctimas civiles. El ataque aumentó la tensión en la OTAN y provocó despliegues defensivos en países vecinos. <span class="source">Fuente: The Guardian / Reuters.</span>
+          </div>
+          <a class="readmore" href="https://www.theguardian.com/world/live/2025/sep/20/poland-russia-estonia-ukraine-war-europe-latest-news-updates" target="_blank" rel="noopener">Leer más →</a>
+        </div>
 
-  <div class="producto">
-    <h2>Producto 1</h2>
-    <p>Precio: $10</p>
-  </div>
+        <!-- Noticia 2 -->
+        <div class="card" id="news-cyber">
+          <h2>Ciberataque interrumpe check-in en aeropuertos europeos</h2>
+          <div class="meta">20 de septiembre de 2025 · Interrupciones en transporte</div>
+          <div class="excerpt">
+            Varios aeropuertos importantes experimentaron interrupciones en los sistemas de facturación y embarque tras un ciberataque que afectó software de proveedores. Las autoridades investigan si la acción está vinculada a la escalada regional. <span class="source">Fuente: The Guardian / ABC News.</span>
+          </div>
+          <a class="readmore" href="https://www.theguardian.com/world/live/2025/sep/20/poland-russia-estonia-ukraine-war-europe-latest-news-updates" target="_blank" rel="noopener">Leer más →</a>
+        </div>
 
-  <div class="producto">
-    <h2>Producto 2</h2>
-    <p>Precio: $20</p>
-  </div>
+        <!-- Noticia 3 -->
+        <div class="card" id="news-un-ga">
+          <h2>Cumbre de la ONU: reaparición de líderes y foco en Gaza y Ucrania</h2>
+          <div class="meta">17 de septiembre de 2025 · Nueva York</div>
+          <div class="excerpt">
+            La Asamblea General reunió a mandatarios internacionales en un clima tenso: los conflictos de Gaza y Ucrania dominan la agenda, y líderes importantes han utilizado el foro para exponer sus posiciones sobre ayuda humanitaria y sanciones. <span class="source">Fuente: Reuters.</span>
+          </div>
+          <a class="readmore" href="https://www.reuters.com/world/europe/trump-return-un-gaza-ukraine-conflicts-rage-2025-09-17/" target="_blank" rel="noopener">Leer más →</a>
+        </div>
 
-  <!-- Bloque de anuncio -->
-  <h2>Publicidad</h2>
-  <ins class="adsbygoogle"
-       style="display:block; text-align:center;"
-       data-ad-client="ca-pub-2125166334282472"
-       data-ad-slot="1234567890"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
+        <!-- Noticia 4 -->
+        <div class="card" id="news-gaza">
+          <h2>Informe de la ONU y tensiones en torno a Gaza</h2>
+          <div class="meta">18 de septiembre de 2025 · Conflicto en Oriente Medio</div>
+          <div class="excerpt">
+            Informes y resoluciones recientes han colocado a Gaza en el centro del escrutinio internacional, con debates sobre posibles medidas económicas y diplomáticas por parte de la UE y las Naciones Unidas. <span class="source">Fuente: The Guardian.</span>
+          </div>
+          <a class="readmore" href="https://www.theguardian.com/world/2025/sep/17/thursday-briefing-as-israel-defies-warnings-on-gaza-could-eu-pressure-start-to-bite" target="_blank" rel="noopener">Leer más →</a>
+        </div>
+
+        <!-- Bloque de anuncio integrado entre noticias -->
+        <div class="adbox card" aria-hidden="true">
+          <!-- Inserta tu data-ad-slot real abajo en data-ad-slot -->
+          <ins class="adsbygoogle"
+               style="display:block; max-width:970px; width:100%; text-align:center;"
+               data-ad-client="ca-pub-2125166334282472"
+               data-ad-slot="TU_AD_SLOT_AQUI"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
+        <!-- Noticia 5 (otro bloque) -->
+        <div class="card" id="news-econ">
+          <h2>Impactos económicos y sanciones: fondos congelados y reconstrucción</h2>
+          <div class="meta">Esta semana · Economía internacional</div>
+          <div class="excerpt">
+            Se exploran medidas para usar activos congelados y otros mecanismos financieros para apoyar la reconstrucción y aislar a actores estatales implicados en agresiones. Debates en la UE y G7 están en curso. <span class="source">Fuente: Reuters / The Guardian.</span>
+          </div>
+          <a class="readmore" href="https://www.reuters.com/world/" target="_blank" rel="noopener">Leer más →</a>
+        </div>
+      </div>
+
+      <!-- Column: Sidebar (resumen, newsletter, anuncio) -->
+      <aside class="sidebar">
+        <div class="card">
+          <div class="small"><strong>Edición semanal</strong></div>
+          <p class="excerpt">Resumen de los eventos internacionales más relevantes de la última semana. Actualiza esta página semanalmente con nuevos artículos. Suscríbete para recibir un resumen por correo.</p>
+
+          <!-- AdSense sidebar -->
+          <div class="adbox" aria-hidden="true">
+            <ins class="adsbygoogle"
+                 style="display:block; width:300px; height:250px;"
+                 data-ad-client="ca-pub-2125166334282472"
+                 data-ad-slot="TU_AD_SLOT_AQUI_2"
+                 data-ad-format="auto"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          </div>
+
+          <form action="https://formspree.io/f/xdklqpzw" method="POST" style="margin-top:10px">
+            <label style="font-size:13px;color:var(--muted)">Suscríbete (email)</label>
+            <input type="email" name="email" placeholder="tu@correo.com" required style="width:100%;padding:8px;margin-top:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit">
+            <button type="submit" style="margin-top:8px;width:100%;padding:10px;border-radius:8px;border:0;background:var(--accent);color:#021125;font-weight:700">Suscribirme</button>
+          </form>
+
+          <div style="margin-top:12px;color:var(--muted);font-size:13px">
+            <strong>Fuentes rápidas</strong>
+            <ul style="padding-left:18px;margin:8px 0 0 0;color:var(--muted)">
+              <li>Reuters</li>
+              <li>The Guardian</li>
+              <li>ABC News</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mini widget clima / hora (opcional) -->
+        <div class="card" style="margin-top:14px">
+          <div class="small"><strong>Nota</strong></div>
+          <p class="excerpt" style="font-size:14px;color:var(--muted)">Actualiza los artículos con nuevos desarrollos — las noticias internacionales cambian rápido. Mantén las fuentes enlazadas para verificar hechos.</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    © <span id="year"></span> WorldPulse · Hecho con 💙 · Publica en GitHub Pages · Contenido curado con fuentes públicas.
+  </footer>
+
   <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
+    // año dinámico
+    document.getElementById('year').innerText = new Date().getFullYear();
   </script>
-
-  <h2>📩 Contáctame</h2>
-  <form action="https://formspree.io/f/xdklqpzw" method="POST">
-    <input type="text" name="nombre" placeholder="Tu nombre" required>
-    <input type="email" name="email" placeholder="Tu correo" required>
-    <textarea name="mensaje" placeholder="Escribe tu mensaje o pedido aquí" rows="5" required></textarea>
-    <button type="submit">Enviar mensaje</button>
-  </form>
-
 </body>
 </html>
