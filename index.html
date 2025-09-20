@@ -156,7 +156,7 @@ async function fetchNews() {
     try {
         const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(RSS_URL)}`);
         const data = await response.json();
-        return data.items.slice(0,30); // máximo 30 noticias
+        return data.items.slice(0,100); // máximo 30 noticias
     } catch(e){
         console.error("Error al obtener noticias:", e);
         return [];
