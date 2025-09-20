@@ -1,242 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Noticias Internacionales</title>
-<meta name="description" content="Portal de noticias recientes actualizado automáticamente con estilo profesional">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias Torreón e Internacionales</title>
 
-<!-- Google Ads -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2125166334282472"
+  <!-- Anuncios automáticos de Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2125166334282472"
      crossorigin="anonymous"></script>
 
-<style>
-/* ===== Estilos Globales ===== */
-body {
-  font-family: 'Roboto', Arial, sans-serif;
-  margin:0;
-  padding:0;
-  background:#f5f5f5;
-  color:#333;
-}
-a { text-decoration:none; color:inherit; }
-header {
-  background: linear-gradient(90deg,#ff416c,#ff4b2b);
-  color:white;
-  padding:25px 20px;
-  text-align:center;
-  position: sticky;
-  top:0;
-  z-index: 1000;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-}
-header h1 { margin:0; font-size:2rem; letter-spacing:1px; }
-
-/* ===== Main ===== */
-main {
-  max-width:1200px;
-  margin:20px auto;
-  padding:0 20px;
-}
-
-/* Carrusel */
-.carousel {
-  position: relative;
-  overflow: hidden;
-  border-radius: 12px;
-  margin-bottom: 30px;
-  background: #fff4f0;
-  height: 120px; /* un poco más alto para texto multilinea */
-  display: flex;
-  align-items: center;
-}
-
-.carousel-track {
-  display: flex;
-  transition: transform 0.6s ease-in-out;
-}
-
-.carousel-item {
-  min-width: 100%;
-  display: flex;
-  justify-content: center; /* centra horizontalmente */
-  align-items: center;     /* centra verticalmente */
-  font-size: 1.2rem;
-  font-weight: bold;
-  cursor: pointer;
-  text-align: center;      /* centra multilinea */
-  padding: 0 20px;
-  box-sizing: border-box;
-  line-height: 1.3;        /* mejora legibilidad de varias líneas */
-  word-wrap: break-word;   /* asegura que el texto no se salga */
-}
-.carousel-item:hover { background:#ffd1c1; color:#000; }
-
-/* ===== Noticias detalladas ===== */
-.news-detail {
-  background:white;
-  padding:20px;
-  margin-bottom:20px;
-  border-radius:10px;
-  box-shadow:0 6px 12px rgba(0,0,0,0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-.news-detail:hover {
-  transform: translateY(-5px);
-  box-shadow:0 10px 20px rgba(0,0,0,0.15);
-}
-.news-detail h2 { margin-top:0; color:#ff4b2b; font-size:1.5rem; }
-.news-detail p { font-size:1rem; line-height:1.6; }
-.news-detail a { color:#ff416c; font-weight:bold; }
-.news-detail a:hover { text-decoration:underline; }
-
-/* ===== Google Ads ===== */
-.ads-container {
-  margin:20px 0;
-  text-align:center;
-}
-
-/* ===== Footer ===== */
-footer {
-  background:#ff4b2b;
-  color:white;
-  text-align:center;
-  padding:25px 20px;
-  margin-top:40px;
-  font-size:0.9rem;
-}
-
-/* ===== Responsive ===== */
-@media(max-width:768px){
-  .carousel { height:80px; }
-  .carousel-item { font-size:1rem; }
-  .news-detail h2 { font-size:1.2rem; }
-}
-</style>
+  <style>
+    body { font-family: Arial, sans-serif; background:#f4f4f9; margin:0; padding:0; }
+    header { background:#222; color:#fff; padding:20px; text-align:center; }
+    h2 { margin:10px 0; }
+    .news-container { max-width: 900px; margin: 20px auto; padding: 20px; background:#fff; border-radius:8px; }
+    .news-item { border-bottom: 1px solid #ddd; padding: 10px 0; }
+    .news-item:last-child { border: none; }
+    .news-item h3 { margin:0; }
+    .news-item p { margin:5px 0; }
+  </style>
 </head>
 <body>
-
 <header>
-  <h1>🌎 Noticias Internacionales</h1>
+  <h1>📰 Noticias Recientes Torreón & Mundo</h1>
+  <p>Actualizadas cada 20 minutos</p>
 </header>
 
-<main>
-  <!-- Carrusel de titulares -->
-  <div class="carousel">
-    <div class="carousel-track" id="carousel-track"></div>
-  </div>
-
-  <!-- Noticias detalladas -->
-  <div id="news-container"></div>
-
-  <!-- Bloque de Google Ads -->
-  <div class="ads-container">
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-2125166334282472"
-         data-ad-slot="5791713573"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
-</main>
-
-<footer>
-  <p>© 2025 Noticias Internacionales. Todos los derechos reservados.</p>
-</footer>
+<div class="news-container" id="news"></div>
 
 <script>
-// RSS Feed Público (BBC Mundo)
-const RSS_URL = "https://feeds.bbci.co.uk/mundo/rss.xml";
+const SOURCES = [
+  // RSS de Torreón
+  "https://www.elsiglodetorreon.com.mx/rss/local.xml",
+  // RSS internacional (BBC Mundo)
+  "http://feeds.bbci.co.uk/mundo/rss.xml"
+];
 
-// Obtener noticias usando API pública para convertir RSS a JSON
+const MAX_HOURS = 24; // solo últimas 24 horas
+const REFRESH_INTERVAL = 20 * 60 * 1000; // 20 minutos
+
 async function fetchNews() {
+  const container = document.getElementById("news");
+  container.innerHTML = "<p>Cargando noticias...</p>";
+  let allNews = [];
+
+  for (let url of SOURCES) {
     try {
-        const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(RSS_URL)}`);
-        const data = await response.json();
-        return data.items.slice(0,100); // máximo 30 noticias
-    } catch(e){
-        console.error("Error al obtener noticias:", e);
-        return [];
+      const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}`);
+      const data = await response.json();
+      if (data.items) {
+        allNews = allNews.concat(data.items);
+      }
+    } catch (err) {
+      console.error("Error cargando RSS:", err);
     }
+  }
+
+  // Filtrar últimas 24h
+  const now = new Date();
+  allNews = allNews.filter(item => {
+    const pubDate = new Date(item.pubDate);
+    const diffHours = (now - pubDate) / (1000 * 60 * 60);
+    return diffHours <= MAX_HOURS;
+  });
+
+  // Ordenar por fecha descendente
+  allNews.sort((a,b) => new Date(b.pubDate) - new Date(a.pubDate));
+
+  // Mostrar en página
+  container.innerHTML = "";
+  allNews.forEach(n => {
+    const div = document.createElement("div");
+    div.className = "news-item";
+    div.innerHTML = `
+      <h3><a href="${n.link}" target="_blank">${n.title}</a></h3>
+      <p>${n.description || ""}</p>
+      <small>Publicado: ${new Date(n.pubDate).toLocaleString()}</small>
+    `;
+    container.appendChild(div);
+  });
 }
 
-// Crear carrusel y noticias detalladas
-async function initNews() {
-    const newsItems = await fetchNews();
-    if(newsItems.length === 0){
-        document.getElementById("news-container").innerHTML = "<p>No se pudieron cargar las noticias. Intente más tarde.</p>";
-        return;
-    }
+// Primera carga
+fetchNews();
 
-    const carouselTrack = document.getElementById("carousel-track");
-    const newsContainer = document.getElementById("news-container");
-
-    newsItems.forEach((item, index) => {
-        // Carrusel
-        const cItem = document.createElement("div");
-        cItem.className = "carousel-item";
-        cItem.textContent = item.title;
-        cItem.dataset.target = `news${index}`;
-        carouselTrack.appendChild(cItem);
-
-        // Noticias detalladas
-        const nItem = document.createElement("div");
-        nItem.className = "news-detail";
-        nItem.id = `news${index}`;
-        nItem.innerHTML = `<h2>${item.title}</h2><p>${item.description}<br><a href="${item.link}" target="_blank">Leer más</a></p>`;
-        newsContainer.appendChild(nItem);
-    });
-
-    // Carrusel automático
-    const items = Array.from(carouselTrack.children);
-    let idx = 0;
-    setInterval(() => {
-        idx = (idx + 1) % items.length;
-        carouselTrack.style.transform = `translateX(-${idx * 100}%)`;
-    }, 4000);
-
-    // Click en carrusel lleva a noticia detallada
-    items.forEach(item => {
-        item.addEventListener('click', () => {
-            const target = document.getElementById(item.dataset.target);
-            target.scrollIntoView({behavior: 'smooth'});
-        });
-    });
-
-    // Actualización automática cada 30 min
-    setInterval(async () => {
-        const newNews = await fetchNews();
-        if(newNews.length > 0) {
-            carouselTrack.innerHTML = "";
-            newsContainer.innerHTML = "";
-            newNews.forEach((item, index) => {
-                const cItem = document.createElement("div");
-                cItem.className = "carousel-item";
-                cItem.textContent = item.title;
-                cItem.dataset.target = `news${index}`;
-                carouselTrack.appendChild(cItem);
-
-                const nItem = document.createElement("div");
-                nItem.className = "news-detail";
-                nItem.id = `news${index}`;
-                nItem.innerHTML = `<h2>${item.title}</h2><p>${item.description}<br><a href="${item.link}" target="_blank">Leer más</a></p>`;
-                newsContainer.appendChild(nItem);
-
-                cItem.addEventListener('click', () => {
-                    const target = document.getElementById(cItem.dataset.target);
-                    target.scrollIntoView({behavior:'smooth'});
-                });
-            });
-        }
-    }, 1800000); // cada 30 minutos
-}
-
-// Inicializar
-initNews();
+// Recargar cada 20 minutos
+setInterval(fetchNews, REFRESH_INTERVAL);
 </script>
-
 </body>
 </html>
