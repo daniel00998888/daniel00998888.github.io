@@ -1,137 +1,237 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Noticias Torreón e Internacionales</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noticias Profesionales Actualizadas</title>
+<meta name="description" content="Portal de noticias recientes actualizado automáticamente con estilo profesional">
 
-  <!-- Google Ads Automáticos -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2125166334282472" crossorigin="anonymous"></script>
+<!-- Google Ads -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2125166334282472"
+     crossorigin="anonymous"></script>
 
-  <style>
-    body {
-      background: #f8f9fa;
-      font-family: Arial, sans-serif;
-    }
-    header {
-      background: #004085;
-      color: white;
-      padding: 15px;
-      text-align: center;
-    }
-    .carousel-caption {
-      background: rgba(0,0,0,0.6);
-      padding: 10px;
-      border-radius: 5px;
-      text-align: center;
-    }
-    .news-section {
-      margin: 40px auto;
-      max-width: 1200px;
-    }
-    .news-card {
-      margin-bottom: 20px;
-    }
-  </style>
+<style>
+/* ===== Estilos Globales ===== */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin:0;
+  padding:0;
+  background:#f5f5f5;
+  color:#333;
+}
+a { text-decoration:none; color:inherit; }
+header {
+  background: linear-gradient(90deg,#ff416c,#ff4b2b);
+  color:white;
+  padding:25px 20px;
+  text-align:center;
+  position: sticky;
+  top:0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+header h1 { margin:0; font-size:2rem; letter-spacing:1px; }
+
+/* ===== Main ===== */
+main {
+  max-width:1200px;
+  margin:20px auto;
+  padding:0 20px;
+}
+
+/* ===== Carrusel ===== */
+.carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  background: #fff4f0;
+  height: 100px;
+  display:flex;
+  align-items:center;
+}
+.carousel-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+.carousel-item {
+  min-width: 100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:1.2rem;
+  font-weight:bold;
+  cursor:pointer;
+  text-align:center;
+  padding:0 15px;
+}
+.carousel-item:hover { background:#ffd1c1; color:#000; }
+
+/* ===== Noticias detalladas ===== */
+.news-detail {
+  background:white;
+  padding:20px;
+  margin-bottom:20px;
+  border-radius:10px;
+  box-shadow:0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.news-detail:hover {
+  transform: translateY(-5px);
+  box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+.news-detail h2 { margin-top:0; color:#ff4b2b; font-size:1.5rem; }
+.news-detail p { font-size:1rem; line-height:1.6; }
+.news-detail a { color:#ff416c; font-weight:bold; }
+.news-detail a:hover { text-decoration:underline; }
+
+/* ===== Google Ads ===== */
+.ads-container {
+  margin:20px 0;
+  text-align:center;
+}
+
+/* ===== Footer ===== */
+footer {
+  background:#ff4b2b;
+  color:white;
+  text-align:center;
+  padding:25px 20px;
+  margin-top:40px;
+  font-size:0.9rem;
+}
+
+/* ===== Responsive ===== */
+@media(max-width:768px){
+  .carousel { height:80px; }
+  .carousel-item { font-size:1rem; }
+  .news-detail h2 { font-size:1.2rem; }
+}
+</style>
 </head>
 <body>
 
 <header>
-  <h1>📰 Noticias de Torreón e Internacionales</h1>
-  <p>Se actualiza automáticamente cada 20 minutos</p>
+  <h1>🌎 Noticias Profesionales</h1>
 </header>
 
-<div id="carouselNoticias" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner" id="carousel-items">
-    <!-- Noticias dinámicas aquí -->
+<main>
+  <!-- Carrusel de titulares -->
+  <div class="carousel">
+    <div class="carousel-track" id="carousel-track"></div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselNoticias" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselNoticias" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
 
-<section class="news-section container">
-  <h2 class="text-center mb-4">Noticias Detalladas</h2>
-  <div class="row" id="news-list">
-    <!-- Noticias detalladas aquí -->
+  <!-- Noticias detalladas -->
+  <div id="news-container"></div>
+
+  <!-- Bloque de Google Ads -->
+  <div class="ads-container">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2125166334282472"
+         data-ad-slot="3333333333"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
   </div>
-</section>
+</main>
+
+<footer>
+  <p>© 2025 Noticias Profesionales. Todos los derechos reservados.</p>
+</footer>
 
 <script>
-  async function cargarNoticiasTorreon() {
+// RSS Feed Público (BBC Mundo)
+const RSS_URL = "https://feeds.bbci.co.uk/mundo/rss.xml";
+
+// Obtener noticias usando API pública para convertir RSS a JSON
+async function fetchNews() {
     try {
-      let url = "https://api.allorigins.win/get?url=" + encodeURIComponent("https://www.elsiglodetorreon.com.mx/local");
-      let res = await fetch(url);
-      let data = await res.json();
-
-      let html = data.contents;
-      let parser = new DOMParser();
-      let doc = parser.parseFromString(html, "text/html");
-
-      // Extraemos titulares y links
-      let articles = doc.querySelectorAll(".article-card a");
-      let noticias = [];
-      articles.forEach((a, i) => {
-        if (i < 10) { // solo 10 noticias recientes
-          noticias.push({
-            titulo: a.innerText.trim(),
-            link: a.href,
-            descripcion: "Noticia de El Siglo de Torreón.",
-          });
-        }
-      });
-
-      renderNoticias(noticias, "Torreón");
-    } catch (err) {
-      console.error("Error cargando Torreón:", err);
+        const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(RSS_URL)}`);
+        const data = await response.json();
+        return data.items.slice(0,30); // máximo 30 noticias
+    } catch(e){
+        console.error("Error al obtener noticias:", e);
+        return [];
     }
-  }
+}
 
-  function renderNoticias(noticias, fuente) {
-    let carousel = document.getElementById("carousel-items");
-    let lista = document.getElementById("news-list");
-    carousel.innerHTML = "";
-    lista.innerHTML = "";
+// Crear carrusel y noticias detalladas
+async function initNews() {
+    const newsItems = await fetchNews();
+    if(newsItems.length === 0){
+        document.getElementById("news-container").innerHTML = "<p>No se pudieron cargar las noticias. Intente más tarde.</p>";
+        return;
+    }
 
-    noticias.forEach((n, i) => {
-      // Carrusel
-      let active = i === 0 ? "active" : "";
-      carousel.innerHTML += `
-        <div class="carousel-item ${active}">
-          <div class="d-flex justify-content-center align-items-center" style="height:300px; background:#343a40; color:white;">
-            <div class="carousel-caption">
-              <h5>${n.titulo}</h5>
-              <a href="#noticia-${i}" class="btn btn-light btn-sm">Ver detalle</a>
-            </div>
-          </div>
-        </div>
-      `;
+    const carouselTrack = document.getElementById("carousel-track");
+    const newsContainer = document.getElementById("news-container");
 
-      // Noticias detalladas
-      lista.innerHTML += `
-        <div class="col-md-6 news-card" id="noticia-${i}">
-          <div class="card shadow-sm">
-            <div class="card-body">
-              <h5 class="card-title">${n.titulo}</h5>
-              <p class="card-text">${n.descripcion}</p>
-              <a href="${n.link}" target="_blank" class="btn btn-primary">Leer más</a>
-            </div>
-          </div>
-        </div>
-      `;
+    newsItems.forEach((item, index) => {
+        // Carrusel
+        const cItem = document.createElement("div");
+        cItem.className = "carousel-item";
+        cItem.textContent = item.title;
+        cItem.dataset.target = `news${index}`;
+        carouselTrack.appendChild(cItem);
+
+        // Noticias detalladas
+        const nItem = document.createElement("div");
+        nItem.className = "news-detail";
+        nItem.id = `news${index}`;
+        nItem.innerHTML = `<h2>${item.title}</h2><p>${item.description}<br><a href="${item.link}" target="_blank">Leer más</a></p>`;
+        newsContainer.appendChild(nItem);
     });
-  }
 
-  // Primera carga
-  cargarNoticiasTorreon();
-  // Recargar cada 20 minutos
-  setInterval(cargarNoticiasTorreon, 20 * 60 * 1000);
+    // Carrusel automático
+    const items = Array.from(carouselTrack.children);
+    let idx = 0;
+    setInterval(() => {
+        idx = (idx + 1) % items.length;
+        carouselTrack.style.transform = `translateX(-${idx * 100}%)`;
+    }, 4000);
+
+    // Click en carrusel lleva a noticia detallada
+    items.forEach(item => {
+        item.addEventListener('click', () => {
+            const target = document.getElementById(item.dataset.target);
+            target.scrollIntoView({behavior: 'smooth'});
+        });
+    });
+
+    // Actualización automática cada 30 min
+    setInterval(async () => {
+        const newNews = await fetchNews();
+        if(newNews.length > 0) {
+            carouselTrack.innerHTML = "";
+            newsContainer.innerHTML = "";
+            newNews.forEach((item, index) => {
+                const cItem = document.createElement("div");
+                cItem.className = "carousel-item";
+                cItem.textContent = item.title;
+                cItem.dataset.target = `news${index}`;
+                carouselTrack.appendChild(cItem);
+
+                const nItem = document.createElement("div");
+                nItem.className = "news-detail";
+                nItem.id = `news${index}`;
+                nItem.innerHTML = `<h2>${item.title}</h2><p>${item.description}<br><a href="${item.link}" target="_blank">Leer más</a></p>`;
+                newsContainer.appendChild(nItem);
+
+                cItem.addEventListener('click', () => {
+                    const target = document.getElementById(cItem.dataset.target);
+                    target.scrollIntoView({behavior:'smooth'});
+                });
+            });
+        }
+    }, 1800000); // cada 30 minutos
+}
+
+// Inicializar
+initNews();
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
