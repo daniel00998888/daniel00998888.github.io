@@ -1,35 +1,5 @@
 [
   {
-    "id": 2177,
-    "titulo_original": "Usaron buques con banderas de cuatro países  para huachicol    ",
-    "titulo": "Usaron buques con banderas de cuatro países para huachicol",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-08-30",
-    "url_origen": "https://www.jornada.com.mx/2026/08/30/politica/008n1pol?partner=rss"
-  },
-  {
-    "id": 2178,
-    "titulo_original": "Apoyaré sin reservas todas las iniciativas de la Presidenta: Inzunza   ",
-    "titulo": "Apoyaré sin reservas todas las iniciativas de la Presidenta: Inzunza",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F08%2F30%2Ffotos%2F007n1pol-1.jpg",
-    "fecha": "2026-08-30",
-    "url_origen": "https://www.jornada.com.mx/2026/08/30/politica/007n1pol?partner=rss"
-  },
-  {
-    "id": 2179,
-    "titulo_original": "Enjambre derrocha éxitos y mucha miel en el estadio GNP   ",
-    "titulo": "Enjambre derrocha éxitos y mucha miel en el estadio GNP",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-08-30",
-    "url_origen": "https://www.jornada.com.mx/2026/08/30/espectaculos/a27n1esp?partner=rss"
-  },
-  {
     "id": 2180,
     "titulo_original": "Para tomar en cuenta   ",
     "titulo": "Para tomar en cuenta",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F05%2Ffotos%2Fa06n1esp-1.jpg",
     "fecha": "2026-09-05",
     "url_origen": "https://www.jornada.com.mx/2026/09/05/espectaculos/a06n1esp?partner=rss"
+  },
+  {
+    "id": 2277,
+    "titulo_original": "El sentir de los sentidos   ",
+    "titulo": "El sentir de los sentidos",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F05%2Ffotos%2Fa12n1dis-1.jpg",
+    "fecha": "2026-09-05",
+    "url_origen": "https://www.jornada.com.mx/2026/09/05/cultura/a12n1dis?partner=rss"
+  },
+  {
+    "id": 2278,
+    "titulo_original": "Juez reclasifica como feminicidio el crimen de Paola Buenrostro   ",
+    "titulo": "Juez reclasifica como feminicidio el crimen de Paola Buenrostro",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-05",
+    "url_origen": "https://www.jornada.com.mx/2026/09/05/capital/026n3cap?partner=rss"
+  },
+  {
+    "id": 2279,
+    "titulo_original": "Conflicto bélico con Teherán es “pan comido”, desdeña Trump   ",
+    "titulo": "Conflicto bélico con Teherán es “pan comido”, desdeña Trump",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-05",
+    "url_origen": "https://www.jornada.com.mx/2026/09/05/mundo/020n1mun?partner=rss"
   }
 ]
