@@ -1,35 +1,5 @@
 [
   {
-    "id": 2192,
-    "titulo_original": "Nueva Escuela Mexicana, en riesgo de quedar atrapada en burocratismos    ",
-    "titulo": "Nueva Escuela Mexicana, en riesgo de quedar atrapada en burocratismos",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-08-31",
-    "url_origen": "https://www.jornada.com.mx/2026/08/31/politica/008n1pol?partner=rss"
-  },
-  {
-    "id": 2193,
-    "titulo_original": "Hugo Casanova Cardiel: La UNAM: pensar  en serio   ",
-    "titulo": "Hugo Casanova Cardiel: La UNAM: pensar en serio",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-08-31",
-    "url_origen": "https://www.jornada.com.mx/2026/08/31/politica/015a2pol?partner=rss"
-  },
-  {
-    "id": 2194,
-    "titulo_original": "Atacan con explosivos sede de la policía en Ojocaliente; al menos 17 heridos    ",
-    "titulo": "Atacan con explosivos sede de la policía en Ojocaliente; al menos 17 heridos",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F08%2F31%2Ffotos%2F025n1est-1.jpg",
-    "fecha": "2026-08-31",
-    "url_origen": "https://www.jornada.com.mx/2026/08/31/estados/025n1est?partner=rss"
-  },
-  {
     "id": 2195,
     "titulo_original": "Fiscalía vincula  ataque al CUM de Hermosillo con grupos de narcomenudeo    ",
     "titulo": "Fiscalía vincula ataque al CUM de Hermosillo con grupos de narcomenudeo",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F06%2Ffotos%2Fa09n2dep-1.jpg",
     "fecha": "2026-09-06",
     "url_origen": "https://www.jornada.com.mx/2026/09/06/deportes/a09n2dep?partner=rss"
+  },
+  {
+    "id": 2292,
+    "titulo_original": "DEA se da crédito por decomiso histórico de metanfetamina   ",
+    "titulo": "DEA se da crédito por decomiso histórico de metanfetamina",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F06%2Ffotos%2F005n2pol-1.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/politica/005n2pol?partner=rss"
+  },
+  {
+    "id": 2293,
+    "titulo_original": "EU asalta otro navío de Ecuador en el Pacífico; es el séptimo del año   ",
+    "titulo": "EU asalta otro navío de Ecuador en el Pacífico; es el séptimo del año",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/mundo/018n2mun?partner=rss"
+  },
+  {
+    "id": 2294,
+    "titulo_original": "Temor, principal razón de migrantes en EU para no buscar atención médica   ",
+    "titulo": "Temor, principal razón de migrantes en EU para no buscar atención médica",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/politica/008n1pol?partner=rss"
   }
 ]
