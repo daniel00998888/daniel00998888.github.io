@@ -1,35 +1,5 @@
 [
   {
-    "id": 2189,
-    "titulo_original": "David Márquez Ayala: Reporte económico   ",
-    "titulo": "David Márquez Ayala: Reporte económico",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F08%2F31%2Ffotos%2F019o1eco-1.jpg",
-    "fecha": "2026-08-31",
-    "url_origen": "https://www.jornada.com.mx/2026/08/31/opinion/019o1eco?partner=rss"
-  },
-  {
-    "id": 2190,
-    "titulo_original": "En el Congreso, la reforma para prohibir la doble nacionalidad a candidatos   ",
-    "titulo": "En el Congreso, la reforma para prohibir la doble nacionalidad a candidatos",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-08-31",
-    "url_origen": "https://www.jornada.com.mx/2026/08/31/politica/005n2pol?partner=rss"
-  },
-  {
-    "id": 2191,
-    "titulo_original": "Tiroteo en fiesta rave en Suiza deja una joven muerta y cinco heridos   ",
-    "titulo": "Tiroteo en fiesta rave en Suiza deja una joven muerta y cinco heridos",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-08-31",
-    "url_origen": "https://www.jornada.com.mx/2026/08/31/espectaculos/a08n2esp?partner=rss"
-  },
-  {
     "id": 2192,
     "titulo_original": "Nueva Escuela Mexicana, en riesgo de quedar atrapada en burocratismos    ",
     "titulo": "Nueva Escuela Mexicana, en riesgo de quedar atrapada en burocratismos",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F05%2Ffotos%2F009n2pol-1.jpg",
     "fecha": "2026-09-06",
     "url_origen": "https://www.jornada.com.mx/2026/09/05/politica/009n2pol?partner=rss"
+  },
+  {
+    "id": 2289,
+    "titulo_original": "Editorial: INE: hipertrofia presupuestal",
+    "titulo": "Editorial: INE: hipertrofia presupuestal",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/opinion/002a1edi?partner=rss"
+  },
+  {
+    "id": 2290,
+    "titulo_original": "Ángeles González Gamio: Patrimonio usurpado   ",
+    "titulo": "Ángeles González Gamio: Patrimonio usurpado",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/capital/026a1cap?partner=rss"
+  },
+  {
+    "id": 2291,
+    "titulo_original": "México empata 2-2 con Benín en su debut en el Mundial Sub-20 Femenil   ",
+    "titulo": "México empata 2-2 con Benín en su debut en el Mundial Sub-20 Femenil",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F06%2Ffotos%2Fa09n2dep-1.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/deportes/a09n2dep?partner=rss"
   }
 ]
