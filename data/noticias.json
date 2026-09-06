@@ -1,35 +1,5 @@
 [
   {
-    "id": 2186,
-    "titulo_original": "De $6,044, gasto promedio por estudiante de educación básica   ",
-    "titulo": "De $6,044, gasto promedio por estudiante de educación básica",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F08%2F30%2Ffotos%2F015n2eco-1.jpg",
-    "fecha": "2026-08-31",
-    "url_origen": "https://www.jornada.com.mx/2026/08/30/economia/015n2eco?partner=rss"
-  },
-  {
-    "id": 2187,
-    "titulo_original": "Editorial:    Crudo venezolano: robo consumado       ",
-    "titulo": "Editorial: Crudo venezolano: robo consumado",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-08-31",
-    "url_origen": "https://www.jornada.com.mx/2026/08/31/opinion/002a1edi?partner=rss"
-  },
-  {
-    "id": 2188,
-    "titulo_original": "Olivia Rodrigo recaudó 20 millones de dólares para el bienestar de las mujeres   ",
-    "titulo": "Olivia Rodrigo recaudó 20 millones de dólares para el bienestar de las mujeres",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F08%2F31%2Ffotos%2Fa07n2esp-1.jpg",
-    "fecha": "2026-08-31",
-    "url_origen": "https://www.jornada.com.mx/2026/08/31/espectaculos/a07n2esp?partner=rss"
-  },
-  {
     "id": 2189,
     "titulo_original": "David Márquez Ayala: Reporte económico   ",
     "titulo": "David Márquez Ayala: Reporte económico",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F05%2Ffotos%2F023n1est-1.jpg",
     "fecha": "2026-09-06",
     "url_origen": "https://www.jornada.com.mx/2026/09/05/estados/023n1est?partner=rss"
+  },
+  {
+    "id": 2286,
+    "titulo_original": "En la alcaldía Benito Juárez se vive otra expansión inmobiliaria   ",
+    "titulo": "En la alcaldía Benito Juárez se vive otra expansión inmobiliaria",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F05%2Ffotos%2F025n1cap-1.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/05/capital/025n1cap?partner=rss"
+  },
+  {
+    "id": 2287,
+    "titulo_original": "Bachillerato Margarita Maza concluirá inscripciones el próximo lunes: SEP   ",
+    "titulo": "Bachillerato Margarita Maza concluirá inscripciones el próximo lunes: SEP",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/05/politica/007n3pol?partner=rss"
+  },
+  {
+    "id": 2288,
+    "titulo_original": "Convoca Alito a Fox a crear un amplio frente de oposición   ",
+    "titulo": "Convoca Alito a Fox a crear un amplio frente de oposición",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F05%2Ffotos%2F009n2pol-1.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/05/politica/009n2pol?partner=rss"
   }
 ]
