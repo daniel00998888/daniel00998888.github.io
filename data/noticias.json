@@ -1,35 +1,5 @@
 [
   {
-    "id": 2198,
-    "titulo_original": "Restos ignorados por años podrían dar un vuelco al caso Ayotzinapa   ",
-    "titulo": "Restos ignorados por años podrían dar un vuelco al caso Ayotzinapa",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F08%2F31%2Ffotos%2F007n1pol-1.jpg",
-    "fecha": "2026-09-01",
-    "url_origen": "https://www.jornada.com.mx/2026/08/31/politica/007n1pol?partner=rss"
-  },
-  {
-    "id": 2199,
-    "titulo_original": "Trump insta a las empresas canadienses a mudarse a EU   ",
-    "titulo": "Trump insta a las empresas canadienses a mudarse a EU",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-01",
-    "url_origen": "https://www.jornada.com.mx/2026/08/31/economia/019n2eco?partner=rss"
-  },
-  {
-    "id": 2200,
-    "titulo_original": "Fotos de Maduro en sus redes sociales   ",
-    "titulo": "Fotos de Maduro en sus redes sociales",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-01",
-    "url_origen": "https://www.jornada.com.mx/2026/08/31/mundo/022n2mun?partner=rss"
-  },
-  {
     "id": 2201,
     "titulo_original": "El paquete económico 2027 balanceará la base tributaria   ",
     "titulo": "El paquete económico 2027 balanceará la base tributaria",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
     "fecha": "2026-09-06",
     "url_origen": "https://www.jornada.com.mx/2026/09/06/deportes/a11n3dep?partner=rss"
+  },
+  {
+    "id": 2298,
+    "titulo_original": "Propuestas infantiles que inspiran   ",
+    "titulo": "Propuestas infantiles que inspiran",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F06%2Ffotos%2Fa12n1vox-1.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/cultura/a12n1vox?partner=rss"
+  },
+  {
+    "id": 2299,
+    "titulo_original": "Documental sobre Oasis y cinta sobre caza pederastas sacudieron la Mostra ayer   ",
+    "titulo": "Documental sobre Oasis y cinta sobre caza pederastas sacudieron la Mostra ayer",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F06%2Ffotos%2Fa06n1esp-1.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/espectaculos/a06n1esp?partner=rss"
+  },
+  {
+    "id": 2300,
+    "titulo_original": "Para tomar en cuenta   ",
+    "titulo": "Para tomar en cuenta",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/economia/015n2eco?partner=rss"
   }
 ]
