@@ -1,35 +1,5 @@
 [
   {
-    "id": 2195,
-    "titulo_original": "Fiscalía vincula  ataque al CUM de Hermosillo con grupos de narcomenudeo    ",
-    "titulo": "Fiscalía vincula ataque al CUM de Hermosillo con grupos de narcomenudeo",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-08-31",
-    "url_origen": "https://www.jornada.com.mx/2026/08/31/estados/026n3est?partner=rss"
-  },
-  {
-    "id": 2196,
-    "titulo_original": "Trump ha obtenido casi 10 mil mdd por petróleo venezolano este año   ",
-    "titulo": "Trump ha obtenido casi 10 mil mdd por petróleo venezolano este año",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F08%2F31%2Ffotos%2F022n1mun-1.jpg",
-    "fecha": "2026-09-01",
-    "url_origen": "https://www.jornada.com.mx/2026/08/31/mundo/022n1mun?partner=rss"
-  },
-  {
-    "id": 2197,
-    "titulo_original": "Arturo Balderas Rodríguez: Desde el otro lado   ",
-    "titulo": "Arturo Balderas Rodríguez: Desde el otro lado",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-01",
-    "url_origen": "https://www.jornada.com.mx/2026/08/31/opinion/012o1pol?partner=rss"
-  },
-  {
     "id": 2198,
     "titulo_original": "Restos ignorados por años podrían dar un vuelco al caso Ayotzinapa   ",
     "titulo": "Restos ignorados por años podrían dar un vuelco al caso Ayotzinapa",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
     "fecha": "2026-09-06",
     "url_origen": "https://www.jornada.com.mx/2026/09/06/politica/008n1pol?partner=rss"
+  },
+  {
+    "id": 2295,
+    "titulo_original": "Vulnerables, los migrantes extranjeros que deporta EU a México; son mil cada mes   ",
+    "titulo": "Vulnerables, los migrantes extranjeros que deporta EU a México; son mil cada mes",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/politica/007n1pol?partner=rss"
+  },
+  {
+    "id": 2296,
+    "titulo_original": "Inaugura Azucena Cisneros, presidenta municipal de Ecatepec, Parque Prizo 1   ",
+    "titulo": "Inaugura Azucena Cisneros, presidenta municipal de Ecatepec, Parque Prizo 1",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F06%2Ffotos%2F021n2est-1.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/estados/021n2est?partner=rss"
+  },
+  {
+    "id": 2297,
+    "titulo_original": "Tadej Pogacar termina la temporada y renueva contrato hasta 2032 con UAE   ",
+    "titulo": "Tadej Pogacar termina la temporada y renueva contrato hasta 2032 con UAE",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-06",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/deportes/a11n3dep?partner=rss"
   }
 ]
