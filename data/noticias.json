@@ -1,35 +1,5 @@
 [
   {
-    "id": 2207,
-    "titulo_original": "Luis Hernández Navarro: Congreso Nacional Indígena, 30 años   ",
-    "titulo": "Luis Hernández Navarro: Congreso Nacional Indígena, 30 años",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-01",
-    "url_origen": "https://www.jornada.com.mx/2026/09/01/politica/015a2pol?partner=rss"
-  },
-  {
-    "id": 2208,
-    "titulo_original": "La Unión Europea somete a ChatGPT a un mayor control con nuevas obligaciones de seguridad   ",
-    "titulo": "La Unión Europea somete a ChatGPT a un mayor control con nuevas obligaciones de seguridad",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-01",
-    "url_origen": "https://www.jornada.com.mx/2026/09/01/ciencias/a06n2cie?partner=rss"
-  },
-  {
-    "id": 2209,
-    "titulo_original": "Adjudican al CJNG ataque  con explosivos en Zacatecas   ",
-    "titulo": "Adjudican al CJNG ataque con explosivos en Zacatecas",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F01%2Ffotos%2F025n1est-1.jpg",
-    "fecha": "2026-09-01",
-    "url_origen": "https://www.jornada.com.mx/2026/09/01/estados/025n1est?partner=rss"
-  },
-  {
     "id": 2210,
     "titulo_original": "ONG denuncia violaciones al proceso durante arresto de abogado de normalistas   ",
     "titulo": "ONG denuncia violaciones al proceso durante arresto de abogado de normalistas",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F06%2Ffotos%2F023n1cap-1.jpg",
     "fecha": "2026-09-07",
     "url_origen": "https://www.jornada.com.mx/2026/09/06/capital/023n1cap?partner=rss"
+  },
+  {
+    "id": 2307,
+    "titulo_original": "La Clavería, el museo al aire libre que se resiste a morir   ",
+    "titulo": "La Clavería, el museo al aire libre que se resiste a morir",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F06%2Ffotos%2F025n1cap-1.jpg",
+    "fecha": "2026-09-07",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/capital/025n1cap?partner=rss"
+  },
+  {
+    "id": 2308,
+    "titulo_original": "Residentes con Salmonelosis, “fuera de peligro”   ",
+    "titulo": "Residentes con Salmonelosis, “fuera de peligro”",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F06%2Ffotos%2F009n2pol-1.jpg",
+    "fecha": "2026-09-07",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/politica/009n2pol?partner=rss"
+  },
+  {
+    "id": 2309,
+    "titulo_original": "Turco Mohamed se lanza contra la organización de la Leagues Cup   ",
+    "titulo": "Turco Mohamed se lanza contra la organización de la Leagues Cup",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F06%2Ffotos%2Fa09n1dep-1.jpg",
+    "fecha": "2026-09-07",
+    "url_origen": "https://www.jornada.com.mx/2026/09/06/deportes/a09n1dep?partner=rss"
   }
 ]
