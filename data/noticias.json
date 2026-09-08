@@ -1,35 +1,5 @@
 [
   {
-    "id": 2219,
-    "titulo_original": "Perfila la Corte revés a Calica en el litigio contra la Armada   ",
-    "titulo": "Perfila la Corte revés a Calica en el litigio contra la Armada",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-02",
-    "url_origen": "https://www.jornada.com.mx/2026/09/02/politica/008n1pol?partner=rss"
-  },
-  {
-    "id": 2220,
-    "titulo_original": "Luis Linares Zapata: Piratería   ",
-    "titulo": "Luis Linares Zapata: Piratería",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-02",
-    "url_origen": "https://www.jornada.com.mx/2026/09/02/politica/015a2pol?partner=rss"
-  },
-  {
-    "id": 2221,
-    "titulo_original": "Estudian genética de más de 100 microalgas para fortalecer la biotecnología   ",
-    "titulo": "Estudian genética de más de 100 microalgas para fortalecer la biotecnología",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F02%2Ffotos%2Fa06n2cie-1.jpg",
-    "fecha": "2026-09-02",
-    "url_origen": "https://www.jornada.com.mx/2026/09/02/ciencias/a06n2cie?partner=rss"
-  },
-  {
     "id": 2222,
     "titulo_original": "Otomíes toman vías y central de la CFE; exigen detener crisis ambiental   ",
     "titulo": "Otomíes toman vías y central de la CFE; exigen detener crisis ambiental",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
     "fecha": "2026-09-07",
     "url_origen": "https://www.jornada.com.mx/2026/09/07/politica/015a2pol?partner=rss"
+  },
+  {
+    "id": 2319,
+    "titulo_original": "Temascalcingo: son 10 fallecidos y 81 heridos por estallido de pirotecnia    ",
+    "titulo": "Temascalcingo: son 10 fallecidos y 81 heridos por estallido de pirotecnia",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F07%2Ffotos%2F025n1est-1.jpg",
+    "fecha": "2026-09-08",
+    "url_origen": "https://www.jornada.com.mx/2026/09/07/estados/025n1est?partner=rss"
+  },
+  {
+    "id": 2320,
+    "titulo_original": "Marchan por el “honor y gloria” de las víctimas de la dictadura chilena   ",
+    "titulo": "Marchan por el “honor y gloria” de las víctimas de la dictadura chilena",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F07%2Ffotos%2F022n1mun-1.jpg",
+    "fecha": "2026-09-08",
+    "url_origen": "https://www.jornada.com.mx/2026/09/07/mundo/022n1mun?partner=rss"
+  },
+  {
+    "id": 2321,
+    "titulo_original": "Ortiz Tejeda: Nosotros ya no somos  los mismos   ",
+    "titulo": "Ortiz Tejeda: Nosotros ya no somos los mismos",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-08",
+    "url_origen": "https://www.jornada.com.mx/2026/09/07/opinion/012o1pol?partner=rss"
   }
 ]
