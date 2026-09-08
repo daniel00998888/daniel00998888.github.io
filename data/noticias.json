@@ -1,35 +1,5 @@
 [
   {
-    "id": 2228,
-    "titulo_original": "Repuntó la producción de gasolinas a niveles de 2016   ",
-    "titulo": "Repuntó la producción de gasolinas a niveles de 2016",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-03",
-    "url_origen": "https://www.jornada.com.mx/2026/09/02/economia/019n2eco?partner=rss"
-  },
-  {
-    "id": 2229,
-    "titulo_original": "Destaca Sheinbaum saneamiento de ríos y plantación de árboles   ",
-    "titulo": "Destaca Sheinbaum saneamiento de ríos y plantación de árboles",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-03",
-    "url_origen": "https://www.jornada.com.mx/2026/09/02/politica/010n2pol?partner=rss"
-  },
-  {
-    "id": 2230,
-    "titulo_original": "Lanza España plan de ayuda para Ceuta por 300 millones de euros tras crisis migratoria   ",
-    "titulo": "Lanza España plan de ayuda para Ceuta por 300 millones de euros tras crisis migratoria",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-03",
-    "url_origen": "https://www.jornada.com.mx/2026/09/02/mundo/022n2mun?partner=rss"
-  },
-  {
     "id": 2231,
     "titulo_original": "Educación, clave para la justicia social: ministra de Igualdad Racial de Brasil   ",
     "titulo": "Educación, clave para la justicia social: ministra de Igualdad Racial de Brasil",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
     "fecha": "2026-09-08",
     "url_origen": "https://www.jornada.com.mx/2026/09/08/politica/005n2pol?partner=rss"
+  },
+  {
+    "id": 2328,
+    "titulo_original": "Aún hay 15 internados por salmonela: HGM; residentes protestan   ",
+    "titulo": "Aún hay 15 internados por salmonela: HGM; residentes protestan",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-08",
+    "url_origen": "https://www.jornada.com.mx/2026/09/08/politica/008n1pol?partner=rss"
+  },
+  {
+    "id": 2329,
+    "titulo_original": "Víctor M. Toledo: La demagogia ambiental de  la Semarnat   ",
+    "titulo": "Víctor M. Toledo: La demagogia ambiental de la Semarnat",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-08",
+    "url_origen": "https://www.jornada.com.mx/2026/09/08/politica/015a2pol?partner=rss"
+  },
+  {
+    "id": 2330,
+    "titulo_original": "La IA, un “riesgo existencial” para la gente, advierte Alto Comisionado de la ONU para los Derechos Humanos    ",
+    "titulo": "La IA, un “riesgo existencial” para la gente, advierte Alto Comisionado de la ONU para los Derechos Humanos",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-08",
+    "url_origen": "https://www.jornada.com.mx/2026/09/08/ciencias/a06n2cie?partner=rss"
   }
 ]
