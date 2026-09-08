@@ -1,35 +1,5 @@
 [
   {
-    "id": 2225,
-    "titulo_original": "Alfredo Jalife-Rahme: Bajo la lupa   ",
-    "titulo": "Alfredo Jalife-Rahme: Bajo la lupa",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F02%2Ffotos%2F012o1pol-1.jpg",
-    "fecha": "2026-09-02",
-    "url_origen": "https://www.jornada.com.mx/2026/09/02/opinion/012o1pol?partner=rss"
-  },
-  {
-    "id": 2226,
-    "titulo_original": "Subió de 2.3 a 11.6 millones la afiliación a Morena en 3 años   ",
-    "titulo": "Subió de 2.3 a 11.6 millones la afiliación a Morena en 3 años",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F02%2Ffotos%2F007n1pol-1.jpg",
-    "fecha": "2026-09-03",
-    "url_origen": "https://www.jornada.com.mx/2026/09/02/politica/007n1pol?partner=rss"
-  },
-  {
-    "id": 2227,
-    "titulo_original": "Inició la Fiscalía 9 mil 459 carpetas de investigación por contrabando de combustible   ",
-    "titulo": "Inició la Fiscalía 9 mil 459 carpetas de investigación por contrabando de combustible",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F02%2Ffotos%2F014n1pol-1.jpg",
-    "fecha": "2026-09-03",
-    "url_origen": "https://www.jornada.com.mx/2026/09/02/politica/014n1pol?partner=rss"
-  },
-  {
     "id": 2228,
     "titulo_original": "Repuntó la producción de gasolinas a niveles de 2016   ",
     "titulo": "Repuntó la producción de gasolinas a niveles de 2016",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
     "fecha": "2026-09-08",
     "url_origen": "https://www.jornada.com.mx/2026/09/07/politica/012n1pol?partner=rss"
+  },
+  {
+    "id": 2325,
+    "titulo_original": "Editorial:     Pedro Sánchez, acorralado      ",
+    "titulo": "Editorial: Pedro Sánchez, acorralado",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-08",
+    "url_origen": "https://www.jornada.com.mx/2026/09/08/opinion/002a1edi?partner=rss"
+  },
+  {
+    "id": 2326,
+    "titulo_original": "Carlos Fernández-Vega: México SA   ",
+    "titulo": "Carlos Fernández-Vega: México SA",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F08%2Ffotos%2F019o1eco-1.jpg",
+    "fecha": "2026-09-08",
+    "url_origen": "https://www.jornada.com.mx/2026/09/08/opinion/019o1eco?partner=rss"
+  },
+  {
+    "id": 2327,
+    "titulo_original": "La Suprema Corte evaluará exentar de ISR las Afore de trabajadores fallecidos   ",
+    "titulo": "La Suprema Corte evaluará exentar de ISR las Afore de trabajadores fallecidos",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-08",
+    "url_origen": "https://www.jornada.com.mx/2026/09/08/politica/005n2pol?partner=rss"
   }
 ]
