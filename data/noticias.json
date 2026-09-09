@@ -1,35 +1,5 @@
 [
   {
-    "id": 2240,
-    "titulo_original": "“Favor” de Trump a un amigo, origen de los aranceles a aviones de Canadá   ",
-    "titulo": "“Favor” de Trump a un amigo, origen de los aranceles a aviones de Canadá",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-03",
-    "url_origen": "https://www.jornada.com.mx/2026/09/03/economia/019n2eco?partner=rss"
-  },
-  {
-    "id": 2241,
-    "titulo_original": "Tribunal frena por el momento apertura de juicio oral a Ruffo Appel   ",
-    "titulo": "Tribunal frena por el momento apertura de juicio oral a Ruffo Appel",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-04",
-    "url_origen": "https://www.jornada.com.mx/2026/09/03/politica/010n2pol?partner=rss"
-  },
-  {
-    "id": 2242,
-    "titulo_original": "Insta China a Egipto a oponerse a la “injerencia externa” en Medio Oriente   ",
-    "titulo": "Insta China a Egipto a oponerse a la “injerencia externa” en Medio Oriente",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-04",
-    "url_origen": "https://www.jornada.com.mx/2026/09/03/mundo/022n2mun?partner=rss"
-  },
-  {
     "id": 2243,
     "titulo_original": "Proyectan crear dos secciones en la Corte para acelerar trabajos   ",
     "titulo": "Proyectan crear dos secciones en la Corte para acelerar trabajos",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F08%2Ffotos%2F012n1pol-1.jpg",
     "fecha": "2026-09-09",
     "url_origen": "https://www.jornada.com.mx/2026/09/08/politica/012n1pol?partner=rss"
+  },
+  {
+    "id": 2340,
+    "titulo_original": "Editorial: Sanciones a Israel: insuficientes pero necesarias",
+    "titulo": "Editorial: Sanciones a Israel: insuficientes pero necesarias",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-09",
+    "url_origen": "https://www.jornada.com.mx/2026/09/09/opinion/002a1edi?partner=rss"
+  },
+  {
+    "id": 2341,
+    "titulo_original": "Cuarta victoria para Brennan   ",
+    "titulo": "Cuarta victoria para Brennan",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F09%2Ffotos%2Fa12n3dep-1.jpg",
+    "fecha": "2026-09-09",
+    "url_origen": "https://www.jornada.com.mx/2026/09/09/deportes/a12n3dep?partner=rss"
+  },
+  {
+    "id": 2342,
+    "titulo_original": "Promueve el canciller la inversión en México ante 500 empresarios en NY   ",
+    "titulo": "Promueve el canciller la inversión en México ante 500 empresarios en NY",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-09",
+    "url_origen": "https://www.jornada.com.mx/2026/09/09/politica/005n2pol?partner=rss"
   }
 ]
