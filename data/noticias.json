@@ -1,35 +1,5 @@
 [
   {
-    "id": 2243,
-    "titulo_original": "Proyectan crear dos secciones en la Corte para acelerar trabajos   ",
-    "titulo": "Proyectan crear dos secciones en la Corte para acelerar trabajos",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F03%2Ffotos%2F012n1pol-1.jpg",
-    "fecha": "2026-09-04",
-    "url_origen": "https://www.jornada.com.mx/2026/09/03/politica/012n1pol?partner=rss"
-  },
-  {
-    "id": 2244,
-    "titulo_original": "Busca Pemex inversión privada para acelerar plan estratégico   ",
-    "titulo": "Busca Pemex inversión privada para acelerar plan estratégico",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F03%2Ffotos%2F016n1eco-1.jpg",
-    "fecha": "2026-09-04",
-    "url_origen": "https://www.jornada.com.mx/2026/09/03/economia/016n1eco?partner=rss"
-  },
-  {
-    "id": 2245,
-    "titulo_original": "Debut exitoso de la Hormiga ",
-    "titulo": "Debut exitoso de la Hormiga",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F03%2Ffotos%2Fa11n3dep-1.jpg",
-    "fecha": "2026-09-04",
-    "url_origen": "https://www.jornada.com.mx/2026/09/03/deportes/a11n3dep?partner=rss"
-  },
-  {
     "id": 2246,
     "titulo_original": "Detienen al productor Luis de Llano por el caso Sasha Sokol   ",
     "titulo": "Detienen al productor Luis de Llano por el caso Sasha Sokol",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
     "fecha": "2026-09-09",
     "url_origen": "https://www.jornada.com.mx/2026/09/09/politica/005n2pol?partner=rss"
+  },
+  {
+    "id": 2343,
+    "titulo_original": "Reanuda Rusia ofensiva a Kiev tras pausa de 72 horas por negociaciones   ",
+    "titulo": "Reanuda Rusia ofensiva a Kiev tras pausa de 72 horas por negociaciones",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F09%2Ffotos%2F025n1mun-1.jpg",
+    "fecha": "2026-09-09",
+    "url_origen": "https://www.jornada.com.mx/2026/09/09/mundo/025n1mun?partner=rss"
+  },
+  {
+    "id": 2344,
+    "titulo_original": "Garantizan ingreso al Zócalo a marcha por los 43 de Ayotzinapa   ",
+    "titulo": "Garantizan ingreso al Zócalo a marcha por los 43 de Ayotzinapa",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-09",
+    "url_origen": "https://www.jornada.com.mx/2026/09/09/politica/008n1pol?partner=rss"
+  },
+  {
+    "id": 2345,
+    "titulo_original": "Rusia abre la puerta de BRICS a nuevos países   ",
+    "titulo": "Rusia abre la puerta de BRICS a nuevos países",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-09",
+    "url_origen": "https://www.jornada.com.mx/2026/09/09/economia/021n3eco?partner=rss"
   }
 ]
