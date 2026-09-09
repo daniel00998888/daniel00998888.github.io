@@ -1,35 +1,5 @@
 [
   {
-    "id": 2246,
-    "titulo_original": "Detienen al productor Luis de Llano por el caso Sasha Sokol   ",
-    "titulo": "Detienen al productor Luis de Llano por el caso Sasha Sokol",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F03%2Ffotos%2Fa09n2esp-1.jpg",
-    "fecha": "2026-09-04",
-    "url_origen": "https://www.jornada.com.mx/2026/09/03/espectaculos/a09n2esp?partner=rss"
-  },
-  {
-    "id": 2247,
-    "titulo_original": "Editorial: Chile: ¿seguridad o represión?",
-    "titulo": "Editorial: Chile: ¿seguridad o represión?",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-04",
-    "url_origen": "https://www.jornada.com.mx/2026/09/04/opinion/002a1edi?partner=rss"
-  },
-  {
-    "id": 2248,
-    "titulo_original": "Titular de Defensa ratifica “incuestionable lealtad” hacia el Poder Ejecutivo   ",
-    "titulo": "Titular de Defensa ratifica “incuestionable lealtad” hacia el Poder Ejecutivo",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-04",
-    "url_origen": "https://www.jornada.com.mx/2026/09/04/politica/005n2pol?partner=rss"
-  },
-  {
     "id": 2249,
     "titulo_original": "El actor John Malkovich informa sobre su posible retiro de Hollywood   ",
     "titulo": "El actor John Malkovich informa sobre su posible retiro de Hollywood",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
     "fecha": "2026-09-09",
     "url_origen": "https://www.jornada.com.mx/2026/09/09/economia/021n3eco?partner=rss"
+  },
+  {
+    "id": 2346,
+    "titulo_original": "Víctor M. Quintana S.: La lucha lagunera abre vía para defender el agua   ",
+    "titulo": "Víctor M. Quintana S.: La lucha lagunera abre vía para defender el agua",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-09",
+    "url_origen": "https://www.jornada.com.mx/2026/09/09/politica/015a2pol?partner=rss"
+  },
+  {
+    "id": 2347,
+    "titulo_original": "Búsqueda con IA de señales tempranas de cáncer en el aliento    ",
+    "titulo": "Búsqueda con IA de señales tempranas de cáncer en el aliento",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F09%2Ffotos%2Fa06n2cie-1.jpg",
+    "fecha": "2026-09-09",
+    "url_origen": "https://www.jornada.com.mx/2026/09/09/ciencias/a06n2cie?partner=rss"
+  },
+  {
+    "id": 2348,
+    "titulo_original": "Día de puertas abiertas en la UAM busca acercar a nuevos estudiantes   ",
+    "titulo": "Día de puertas abiertas en la UAM busca acercar a nuevos estudiantes",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-09",
+    "url_origen": "https://www.jornada.com.mx/2026/09/09/sociedad/035n3soc?partner=rss"
   }
 ]
