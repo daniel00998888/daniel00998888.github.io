@@ -1,35 +1,5 @@
 [
   {
-    "id": 2252,
-    "titulo_original": "Naves espaciales de Europa y Japón se acercan a Mercurio    ",
-    "titulo": "Naves espaciales de Europa y Japón se acercan a Mercurio",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-04",
-    "url_origen": "https://www.jornada.com.mx/2026/09/04/ciencias/a06n2cie?partner=rss"
-  },
-  {
-    "id": 2253,
-    "titulo_original": "Entregan a familiares los  cuerpos de las víctimas del multihomicidio en Atizapán   ",
-    "titulo": "Entregan a familiares los cuerpos de las víctimas del multihomicidio en Atizapán",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-04",
-    "url_origen": "https://www.jornada.com.mx/2026/09/04/estados/025n1est?partner=rss"
-  },
-  {
-    "id": 2254,
-    "titulo_original": "No hay evidencia de que Marruecos planeara invasión a Ceuta: Sánchez   ",
-    "titulo": "No hay evidencia de que Marruecos planeara invasión a Ceuta: Sánchez",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F04%2Ffotos%2F022n1mun-1.jpg",
-    "fecha": "2026-09-04",
-    "url_origen": "https://www.jornada.com.mx/2026/09/04/mundo/022n1mun?partner=rss"
-  },
-  {
     "id": 2255,
     "titulo_original": "EU no tiene razón para expulsar a 2,900 paisanos a CA: Sheinbaum   ",
     "titulo": "EU no tiene razón para expulsar a 2,900 paisanos a CA: Sheinbaum",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
     "fecha": "2026-09-10",
     "url_origen": "https://www.jornada.com.mx/2026/09/09/politica/014n1pol?partner=rss"
+  },
+  {
+    "id": 2352,
+    "titulo_original": "Liberaron a hermano de paisano asesinado en EU, luego de 2 meses   ",
+    "titulo": "Liberaron a hermano de paisano asesinado en EU, luego de 2 meses",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-10",
+    "url_origen": "https://www.jornada.com.mx/2026/09/09/politica/005n4pol?partner=rss"
+  },
+  {
+    "id": 2353,
+    "titulo_original": "Canadá y EU arrecian su disputa comercial   ",
+    "titulo": "Canadá y EU arrecian su disputa comercial",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F09%2Ffotos%2F021n1eco-1.jpg",
+    "fecha": "2026-09-10",
+    "url_origen": "https://www.jornada.com.mx/2026/09/09/economia/021n1eco?partner=rss"
+  },
+  {
+    "id": 2354,
+    "titulo_original": "Se crearán entre 150 mil y 250 mil empleos en el resto del año: Manpower   ",
+    "titulo": "Se crearán entre 150 mil y 250 mil empleos en el resto del año: Manpower",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-10",
+    "url_origen": "https://www.jornada.com.mx/2026/09/09/economia/019n2eco?partner=rss"
   }
 ]
