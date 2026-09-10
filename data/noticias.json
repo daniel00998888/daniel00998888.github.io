@@ -1,35 +1,5 @@
 [
   {
-    "id": 2261,
-    "titulo_original": "Enrique Galván Ochoa: Dinero   ",
-    "titulo": "Enrique Galván Ochoa: Dinero",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F04%2Ffotos%2F006o1eco-1.jpg",
-    "fecha": "2026-09-05",
-    "url_origen": "https://www.jornada.com.mx/2026/09/04/opinion/006o1eco?partner=rss"
-  },
-  {
-    "id": 2262,
-    "titulo_original": "Farías envía otra carta a  Sheinbaum; “la verdad saldrá a la luz”   ",
-    "titulo": "Farías envía otra carta a Sheinbaum; “la verdad saldrá a la luz”",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-05",
-    "url_origen": "https://www.jornada.com.mx/2026/09/04/sociedad/031n3soc?partner=rss"
-  },
-  {
-    "id": 2263,
-    "titulo_original": "Llama Milei a desterrar las ideas empobrecedoras de la izquierda   ",
-    "titulo": "Llama Milei a desterrar las ideas empobrecedoras de la izquierda",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-05",
-    "url_origen": "https://www.jornada.com.mx/2026/09/04/mundo/020n1mun?partner=rss"
-  },
-  {
     "id": 2264,
     "titulo_original": "Gabriela Rodríguez*: La vivienda social y la nueva composición de hogares   ",
     "titulo": "Gabriela Rodríguez*: La vivienda social y la nueva composición de hogares",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F10%2Ffotos%2F025n1est-1.jpg",
     "fecha": "2026-09-10",
     "url_origen": "https://www.jornada.com.mx/2026/09/10/estados/025n1est?partner=rss"
+  },
+  {
+    "id": 2361,
+    "titulo_original": "Detienen a otro implicado en el crimen contra Manzo; suman 32   ",
+    "titulo": "Detienen a otro implicado en el crimen contra Manzo; suman 32",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-10",
+    "url_origen": "https://www.jornada.com.mx/2026/09/10/estados/026n3est?partner=rss"
+  },
+  {
+    "id": 2362,
+    "titulo_original": "Bombardea EU el sur de Irán por segundo día consecutivo   ",
+    "titulo": "Bombardea EU el sur de Irán por segundo día consecutivo",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F10%2Ffotos%2F022n1mun-1.jpg",
+    "fecha": "2026-09-10",
+    "url_origen": "https://www.jornada.com.mx/2026/09/10/mundo/022n1mun?partner=rss"
+  },
+  {
+    "id": 2363,
+    "titulo_original": "Considera Sheinbaum que debe regularse la inteligencia artificial   ",
+    "titulo": "Considera Sheinbaum que debe regularse la inteligencia artificial",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-10",
+    "url_origen": "https://www.jornada.com.mx/2026/09/10/politica/007n1pol?partner=rss"
   }
 ]
