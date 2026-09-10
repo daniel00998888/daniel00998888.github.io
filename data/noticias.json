@@ -1,35 +1,5 @@
 [
   {
-    "id": 2255,
-    "titulo_original": "EU no tiene razón para expulsar a 2,900 paisanos a CA: Sheinbaum   ",
-    "titulo": "EU no tiene razón para expulsar a 2,900 paisanos a CA: Sheinbaum",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F04%2Ffotos%2F007n1pol-1.jpg",
-    "fecha": "2026-09-04",
-    "url_origen": "https://www.jornada.com.mx/2026/09/04/politica/007n1pol?partner=rss"
-  },
-  {
-    "id": 2256,
-    "titulo_original": "Fabricantes de EU instan al Congreso a bloquear a autos chinos   ",
-    "titulo": "Fabricantes de EU instan al Congreso a bloquear a autos chinos",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-04",
-    "url_origen": "https://www.jornada.com.mx/2026/09/04/economia/019n2eco?partner=rss"
-  },
-  {
-    "id": 2257,
-    "titulo_original": "Impactos del fracking se deben evaluar antes de recurrir a él: experta   ",
-    "titulo": "Impactos del fracking se deben evaluar antes de recurrir a él: experta",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-04",
-    "url_origen": "https://www.jornada.com.mx/2026/09/04/politica/010n2pol?partner=rss"
-  },
-  {
     "id": 2258,
     "titulo_original": "España será un país arruinado: Trump   ",
     "titulo": "España será un país arruinado: Trump",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
     "fecha": "2026-09-10",
     "url_origen": "https://www.jornada.com.mx/2026/09/09/economia/019n2eco?partner=rss"
+  },
+  {
+    "id": 2355,
+    "titulo_original": "Editorial: Reforma fiscal: debate impostergable",
+    "titulo": "Editorial: Reforma fiscal: debate impostergable",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-10",
+    "url_origen": "https://www.jornada.com.mx/2026/09/10/opinion/002a1edi?partner=rss"
+  },
+  {
+    "id": 2356,
+    "titulo_original": "Nueva número uno del tenis mundial   ",
+    "titulo": "Nueva número uno del tenis mundial",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2F2026%2F09%2F10%2Ffotos%2Fa12n3dep-1.jpg",
+    "fecha": "2026-09-10",
+    "url_origen": "https://www.jornada.com.mx/2026/09/10/deportes/a12n3dep?partner=rss"
+  },
+  {
+    "id": 2357,
+    "titulo_original": "“Con el favor de Dios, que la vida me permita vivir”, dijo triste a su salida   ",
+    "titulo": "“Con el favor de Dios, que la vida me permita vivir”, dijo triste a su salida",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-10",
+    "url_origen": "https://www.jornada.com.mx/2026/09/10/politica/005n2pol?partner=rss"
   }
 ]
