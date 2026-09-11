@@ -1,35 +1,5 @@
 [
   {
-    "id": 2264,
-    "titulo_original": "Gabriela Rodríguez*: La vivienda social y la nueva composición de hogares   ",
-    "titulo": "Gabriela Rodríguez*: La vivienda social y la nueva composición de hogares",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-05",
-    "url_origen": "https://www.jornada.com.mx/2026/09/04/politica/014a1pol?partner=rss"
-  },
-  {
-    "id": 2265,
-    "titulo_original": "Editorial: Fobaproa: desfalco eterno ",
-    "titulo": "Editorial: Fobaproa: desfalco eterno",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-05",
-    "url_origen": "https://www.jornada.com.mx/2026/09/05/opinion/002a1edi?partner=rss"
-  },
-  {
-    "id": 2266,
-    "titulo_original": "Schrader vuelve a abordar los temas de la culpa y la redención en Venecia   ",
-    "titulo": "Schrader vuelve a abordar los temas de la culpa y la redención en Venecia",
-    "resumen": "Noticia importante de México.",
-    "contenido": "Revisa el enlace original para más detalles.",
-    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
-    "fecha": "2026-09-05",
-    "url_origen": "https://www.jornada.com.mx/2026/09/05/espectaculos/a07n2esp?partner=rss"
-  },
-  {
     "id": 2267,
     "titulo_original": "Giménez debuta en triunfo del Porto 2-1 sobre el Moreirense     ",
     "titulo": "Giménez debuta en triunfo del Porto 2-1 sobre el Moreirense",
@@ -998,5 +968,35 @@
     "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
     "fecha": "2026-09-10",
     "url_origen": "https://www.jornada.com.mx/2026/09/10/politica/007n1pol?partner=rss"
+  },
+  {
+    "id": 2364,
+    "titulo_original": "Nada que afecte soberanía o economía se negociará con EU, afirma Sheinbaum   ",
+    "titulo": "Nada que afecte soberanía o economía se negociará con EU, afirma Sheinbaum",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-11",
+    "url_origen": "https://www.jornada.com.mx/2026/09/10/economia/019n2eco?partner=rss"
+  },
+  {
+    "id": 2365,
+    "titulo_original": "Agradece el rector de la máxima casa de estudios presupuesto para 2027   ",
+    "titulo": "Agradece el rector de la máxima casa de estudios presupuesto para 2027",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-11",
+    "url_origen": "https://www.jornada.com.mx/2026/09/10/politica/010n2pol?partner=rss"
+  },
+  {
+    "id": 2366,
+    "titulo_original": "Precio del petróleo supera de nueva cuenta 100 dólares   ",
+    "titulo": "Precio del petróleo supera de nueva cuenta 100 dólares",
+    "resumen": "Noticia importante de México.",
+    "contenido": "Revisa el enlace original para más detalles.",
+    "imagen": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jornada.com.mx%2Fimagemeta%2F1200x630BN.jpg",
+    "fecha": "2026-09-11",
+    "url_origen": "https://www.jornada.com.mx/2026/09/10/mundo/022n2mun?partner=rss"
   }
 ]
